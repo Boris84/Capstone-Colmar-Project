@@ -6,29 +6,24 @@ body {
 	margin: 0;
 }
 
-.container {
-	display: flex;
-	height: 64px;
-    line-height: 2;
-    align-items: center;
-}
-
 .nav {
 	display: flex;
-	font-size: 2rem;
-	font-family: "Helvetica";
-	background-color: #b2c2b2;
-
+	height: 64px;
+    font-size: 2rem;
+    font-family: "Helvetica", sans-serif;
+    background-color: #b2c2b2;
+    justify-content: space-between;
 }
 
-.nav img {
-	height: 4rem;
+ .nav img {
 	margin-left: 24px;
-    padding-top: 6px;
+    line-height: 2;
+}
+
+.nav span {
+	padding-bottom: 20px;
 }
 
 .nav p {
-	position: relative;
-	left: 66.5rem;
-
+    line-height: 1.9;
 }
