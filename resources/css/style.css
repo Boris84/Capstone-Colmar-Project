@@ -1,0 +1,24 @@
+html {
+	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	height: 64px;
+    line-height: 2;
+    align-items: center;
+}
+
+.nav {
+	display: flex;
+	font-size: 2rem;
+	font-family: "Helvetica";
+	background-color: lightgray;
+
+}
+
+.nav img {
+	height: 4rem;
+	margin-left: 24px;
+    padding-top: 6px;
+}
