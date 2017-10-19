@@ -2,6 +2,10 @@ html {
 	font-size: 16px;
 }
 
+body {
+	margin: 0;
+}
+
 .container {
 	display: flex;
 	height: 64px;
@@ -13,7 +17,7 @@ html {
 	display: flex;
 	font-size: 2rem;
 	font-family: "Helvetica";
-	background-color: lightgray;
+	background-color: #b2c2b2;
 
 }
 
@@ -21,4 +25,10 @@ html {
 	height: 4rem;
 	margin-left: 24px;
     padding-top: 6px;
+}
+
+.nav p {
+	position: relative;
+	left: 66.5rem;
+
 }
