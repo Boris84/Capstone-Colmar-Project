@@ -7,12 +7,15 @@ body {
 }
 
 .nav {
+	width: 100%;
 	display: flex;
 	line-height: 3.8;
 	height: 64px;
     font-size: 1.2rem;
     font-family: "Josefin Sans", serif;
     background-color: #b4c1a2;
+    background-size: cover;
+    background-position: center;
 }
  
 .nav img {
