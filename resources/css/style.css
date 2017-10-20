@@ -4,9 +4,10 @@ html {
 
 body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
-.nav {
+header {
 	width: 100%;
 	display: flex;
 	line-height: 3.8;
@@ -18,34 +19,53 @@ body {
     background-position: center;
 }
  
-.nav img {
+.logo {
     padding-top: 12px;
 	margin-left: 24px;
 	height: 2.8rem;   
 }
 
-.nav a {
-	line-height: 4.8;
+
+nav a {
 	position: relative;
+	line-height: 4.8;
 	font-weight: bold;
 	font-family: "Josefin Sans", "Helvetica", serif;
 	text-decoration: none;
 	color: black;
     margin: 0px 16px 0px 16px;
     font-size: 0.9rem;
-	left: 52%;
+    left: 695px;
 }
 
-.nav a:hover {
+header a:hover {
 	color: #ffffff;
 	transition: color 330ms linear;
 }
 
-.nav div {
+header div {
 	line-height: 3.5;
 	font-family: "Gloria Hallelujah";
 }
 
-.nav p {
-    
+
+
+/*top-banner section*/ 
+
+.top-banner img {
+	height: 60%;
+	width: 60%;
+	margin: 32px 24px 32px 24px; 
+}
+
+.top-banner section  {
+  position: absolute;
+  left: 855px;
+  top: 45%;
+}
+
+.large-txt h1 {
+  font-family: "Josefin Sans";
+  font-weight: 400px;
+  font-size: 40px;
 }
