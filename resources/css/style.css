@@ -6,7 +6,7 @@ body {
 	margin: 0;
 }
 
-.nav {
+.container {
 	display: flex;
 	height: 64px;
     font-size: 2rem;
@@ -15,15 +15,20 @@ body {
     justify-content: space-between;
 }
 
+.nav {
+
+}
+ 
+
  .nav img {
 	margin-left: 24px;
-    line-height: 2;
+    
 }
 
 .nav span {
-	padding-bottom: 20px;
+	
 }
 
 .nav p {
-    line-height: 1.9;
+    
 }
