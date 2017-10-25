@@ -10,34 +10,36 @@ body {
 header {
 	display: flex;
     width: 100%;
-	line-height: 2.8;
 	height: 64px;
     font-size: 1.8rem;
     border-bottom: 4px solid lightgray;
     font-family: "Josefin Sans", serif;
     background-size: cover;
     background-position: center;
+    justify-content: space-between;
 }
 
 header div {
 	line-height: 2.6;
-	text-shadow: 5px 5px #ffff33;
-	font-family: "Gloria Hallelujah";
+    margin-left: 17px;
 }
 
 .logo {
-    padding-top: 9px;
-	height: 3.4rem;
-	margin-left: 17px;
+	height: 3.5rem;
+	margin-bottom: -15px;
 }
 
+header span {
+	text-shadow: 5px 5px #ffff33;
+	font-family: "Gloria Hallelujah";
+}
+/*nav menu */
 nav {
 	display: flex;
 }
 
 nav a {
 	top: 20px;
-	left: 575px;
     height: 20px;
     line-height: 1.4;
     position: relative;
