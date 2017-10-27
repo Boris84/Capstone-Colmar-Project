@@ -43,7 +43,7 @@ nav a {
 	font-family: "Caveat Brush", "Helvetica", serif;
 	text-decoration: none;
 	text-shadow: 2px 2px #ffffff;
-    background-color: #d3d3d3;
+    background-color: #FAFAD2;
     border: solid 2px black;
     border-radius: 8px;
 	letter-spacing: 1px;
@@ -54,7 +54,7 @@ nav a {
     bottom: 7px;
 }
 nav a:hover {
-	background-color: #ffff33;
+	background-color: #d3d3d3;
     box-shadow: 6px 6px 6px black;
     transition: background-color 350ms ease-out, box-shadow 350ms ease-out;
 }
@@ -101,14 +101,14 @@ section h3 {
 	color: black;
 	border: solid 3px black;
     letter-spacing: 2px;
-	border-radius: 8px;
-    background-color: #d3d3d3;
-	font-size: 1.5rem;
+	border-radius: 14px;
+    background-color: #ffffff;
+    font-size: 1.5rem;
 }
 .button:hover {
-	background-color: #ffff33;
-    box-shadow: 10px 10px 10px black;
-    transition: box-shadow 350ms ease-out, background-color 350ms ease-out;
+	background-color: #d3d3d3;
+	box-shadow: 10px 10px 10px black;
+	transition: box-shadow 350ms ease-out, background-color 350ms ease-out;
 }
 .button a {
 	text-decoration: none;
