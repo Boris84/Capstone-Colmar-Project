@@ -50,7 +50,7 @@ nav a {
 	letter-spacing: 1px;
     margin: 0px 16px 0px 16px;
     padding: 1px 5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: black;
     bottom: 7px;
 }
@@ -146,15 +146,17 @@ section h3 {
 	font-weight: normal;
 }
 .info-images {
-   display: column;
+   display: flex;
+   flex-direction: column;
    position: relative;
-   right: 15%;
+   right: 16%;
+   
 }  
 
 .info-images img {
-	display: block;
 	width: 76%;
 	margin-top: 32px;
 	border: solid 4px #d3d3d3;
 	border-radius: 30px;
+	text-align: left;
 }
