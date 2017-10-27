@@ -124,22 +124,17 @@ section h3 {
 .main-content {
 	display: flex;	
 }
-
 .main-content .top-section {
 	margin-left: 24px;
 }
-
 .top-section {
     width: 60%;
 }
-
 .top-section img {
-	width: 60%;
+	width: 100%;
     margin: 32px 0px 32px 0px; 
     border: solid 4px #d3d3d3;
-    border-radius: 30px;
 }
-
 .top-section h2 {
 	margin: 0px 0px 24px 0px;
 	font-family: "Caveat Brush"; 
@@ -149,15 +144,19 @@ section h3 {
 	text-shadow: 4px 4px #ffff33;
 	font-weight: normal;
 }
+.top-section p {
+	margin-bottom: 45px;
+}
 .info-images {
+   width: 40%;
    display: flex;
-   flex-direction: column; 
+   margin-left: 32px;
+   margin-top: 32px;
+   flex-direction: column;
 }  
-
 .info-images img {
 	width: 35%;
-	margin-top: 32px;
+	height: 29%;
 	border: solid 4px #d3d3d3;
-	border-radius: 30px;
-	text-align: left;
+	margin: 0px 0px 32px 16px;
 }
