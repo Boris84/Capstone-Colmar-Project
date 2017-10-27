@@ -34,6 +34,7 @@ header span {
 }
 nav {
 	display: flex;
+	margin-right: 9px;
 }
 nav a {
 	top: 20px;
@@ -49,7 +50,7 @@ nav a {
 	letter-spacing: 1px;
     margin: 0px 16px 0px 16px;
     padding: 1px 5px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: black;
     bottom: 7px;
 }
@@ -124,12 +125,12 @@ section h3 {
 	display: flex;	
 }
 
-.main-content section  {
+.main-content .top-section {
 	margin-left: 24px;
 }
 
-.main .top-section img {
-	width: 75%;
+.top-section img {
+	width: 76.5%;
     margin: 32px 0px 32px 0px; 
     border: solid 4px #d3d3d3;
     border-radius: 30px;
@@ -146,11 +147,13 @@ section h3 {
 }
 .info-images {
    display: column;
+   position: relative;
+   right: 15%;
 }  
 
 .info-images img {
 	display: block;
-	width: 74%;
+	width: 76%;
 	margin-top: 32px;
 	border: solid 4px #d3d3d3;
 	border-radius: 30px;
