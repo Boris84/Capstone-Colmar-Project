@@ -39,7 +39,7 @@ nav {
 nav a {
 	top: 20px;
     height: 20px;
-    line-height: 1.4;
+    line-height: 1;
     position: relative;
 	font-family: "Caveat Brush", "Helvetica", serif;
 	text-decoration: none;
@@ -50,7 +50,7 @@ nav a {
 	letter-spacing: 1px;
     margin: 0px 16px 0px 16px;
     padding: 1px 5px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
     bottom: 7px;
 }
