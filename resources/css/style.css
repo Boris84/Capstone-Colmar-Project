@@ -44,7 +44,7 @@ nav a {
 	font-family: "Caveat Brush", "Helvetica", serif;
 	text-decoration: none;
 	text-shadow: 2px 2px #ffffff;
-    background-color: #FAFAD2;
+    background-color: #fafad2;
     border: solid 2px black;
     border-radius: 8px;
 	letter-spacing: 1px;
@@ -55,7 +55,7 @@ nav a {
     bottom: 7px;
 }
 nav a:hover {
-	background-color: #d3d3d3;
+	background-color: #ffff33;
     box-shadow: 6px 6px 6px black;
     transition: background-color 350ms ease-out, box-shadow 350ms ease-out;
 }
@@ -108,13 +108,12 @@ nav a:hover {
     font-size: 1.5rem;
 }
 .button:hover {
-	background-color: #d3d3d3;
+	background-color: #ffff33;
 	box-shadow: 10px 10px 10px black;
 	transition: box-shadow 350ms ease-out, background-color 350ms ease-out;
 }
 .button a {
 	text-decoration: none;
-	text-shadow: 2px 2px #ffffff;
 	font-weight: bold;
 	color: black;
 }
@@ -205,6 +204,9 @@ nav a:hover {
 	width: 65%;
 	margin-left: 16px;
 	flex-direction: column;
+	font-family: "Just Another Hand", serif;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
 }
 
 .info-images a {
