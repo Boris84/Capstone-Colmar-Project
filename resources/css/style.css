@@ -149,19 +149,19 @@ nav a:hover {
 .top-section p {
 	width: 100%;
 	font-family: "EB Garamond";
-	font-size: 1.2rem;
-	line-height: 1;
+	font-size: 1.1rem;
+	line-height: 1.2;
 	letter-spacing: 1px;
-	word-spacing: 5px; 
-	font-family: ;
+	word-spacing: 2px; 
 	margin: -30px 0px 25px 0px;
 	font-weight: normal;
 }
 .top-section div {
 	font-family: "EB Garamond";
-	letter-spacing: 1px;
+	letter-spacing: 0.8px;
 	font-size: 1.1rem;
 	font-weight: normal;
+	word-spacing: 1px;
 }
 .info-images {
     width: 40%;
