@@ -231,26 +231,29 @@ nav a:hover {
  /* Start-Learning */
 .Careers {
 	width: 100%;
-    background-color: #d3d3d3;
+    background-color: #FAFAD2;
     margin-bottom: 32px;
 }
 
 .Careers h1 {
 	position: relative;
 	top: 32px;
-	left: 40%;
+	text-align: center;
     margin: 0px 0px 64px 0px;
 }
 .Boxes {
     display: flex;
-	margin: 0px 72px;
-	width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+	width: 100%;
 }
 
 .Boxes div {
-    background-color: white;
+    background-color: #ffffff;
+    border: solid 4px #d3d3d3;
+    margin: 0px 32px 32px 32px;
+    width: 26%;
 }
-
 .Boxes img {
 	width: 100%;
 }
