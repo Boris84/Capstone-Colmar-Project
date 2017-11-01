@@ -251,9 +251,23 @@ nav a:hover {
 .Boxes div {
     background-color: #ffffff;
     border: solid 4px #d3d3d3;
-    margin: 0px 32px 32px 32px;
+    margin: 0px 0px 32px 32px;
     width: 26%;
 }
+
 .Boxes img {
 	width: 100%;
+}
+
+.Boxes h3 {
+    font-family: "EB Garamond", serif;
+    margin: 16px 0px 8px 16px;
+}
+
+.Boxes span {
+	margin: 0px 0px 0px 16px;
+}
+
+.Boxes p {
+	margin: 8px 0px 24px 16px;
 }
