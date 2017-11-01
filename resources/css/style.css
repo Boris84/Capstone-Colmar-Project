@@ -240,17 +240,18 @@ nav a:hover {
 	text-align: center;
     margin: 0px 0px 64px 0px;
 }
+
 .Boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 	width: 100%;
 }
 
 .Boxes div {
     background-color: #ffffff;
     border: solid 4px #d3d3d3;
-    margin: 0px 0px 32px 32px;
+    margin-bottom: 32px;
     width: 26%;
 }
 
