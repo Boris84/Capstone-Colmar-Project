@@ -242,7 +242,7 @@ nav a:hover {
     border-top: solid 1px #d3d3d3;
 }
 
-.Careers h1 {
+.Careers h2 {
 	position: relative;
 	top: 32px;
 	font-family: "Kranky", serif;
@@ -284,3 +284,16 @@ nav a:hover {
 	margin: 8px 0px 24px 16px;
 	line-height: 1.4rem;
 }
+
+
+/*bottom-section */
+ /*Thesis-Exibit */
+
+ .Thesis {
+ 	width: 100%;
+ 	margin-top: 32px;
+ }
+
+ .Thesis h2 {
+ 	text-align: center;
+ }
