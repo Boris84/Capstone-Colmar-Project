@@ -38,7 +38,7 @@ nav {
 }
 nav a {
 	top: 22px;
-    height: 24px;
+    height: 22.5px;
     line-height: 1.1;
     position: relative;
 	font-family: "Caveat Brush", serif;
@@ -291,9 +291,19 @@ nav a:hover {
 
  .Thesis {
  	width: 100%;
- 	margin-top: 32px;
+ 	margin: 32px 24px 32px 24px;
  }
 
  .Thesis h2 {
- 	text-align: center;
+    font-family: "Kranky";
+    font-size: 2.9rem;
+    font-weight: normal;
+    text-shadow: 4px 4px #ffff33;
+
+ }
+
+ .Thesis video {
+ 	width: 60%;
+ 	margin: 32px 24px 24px 0px;
+ 	border: solid 4px #d3d3d3;
  }
