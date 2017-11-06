@@ -289,28 +289,45 @@ nav a:hover {
 /*bottom-section */
  /*Thesis-Exibit */
 
- .Thesis {
+.Thesis {
  	width: 100%;
  	margin: 0px 24px 32px 24px;
  }
 
- .Thesis h2 {
+
+.Thesis h2 {
+	width: 100%;
     font-family: "Kranky";
     font-size: 2.9rem;
     font-weight: normal;
     margin: 32px 0px 32px 0px;
     text-align: center;
     text-shadow: 4px 4px #ffff33;
- }
+}
 
- .Thesis video {
- 	width: 60%;
- 	margin: 0px 24px 24px 0px;
- 	border: solid 4px #d3d3d3;
- }
+.Thesis .top-section {
+	display: flex;
+	width: 60%;
+	margin: 0px 0px 24px 0px;
+	justify-content: center
+}
 
-.Thesis h3 {
-    font-family: "EB Garamond", serif;
-    margin-bottom: 8px;
+.Thesis .top-section video {
+    width: 100%;
+}
+
+.Thesis .images {
+	
+    background-color: #d3d3d3;
+    margin-left: 24px;
+	width: 35%;
+}
+
+.Thesis .images img {
+
+	width: 100%
+}
+
+.Thesis .images section {
 
 }
