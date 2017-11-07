@@ -358,3 +358,12 @@ nav a:hover {
 	text-shadow: 2px 2px #ffff33;
 	margin-bottom: -6px;
 }
+
+.Thesis-content footer  {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Thesis-content span {
+	font-size: 1rem;
+}
