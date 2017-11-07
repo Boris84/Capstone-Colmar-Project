@@ -359,11 +359,11 @@ nav a:hover {
 	margin-bottom: -6px;
 }
 
-.Thesis-content footer  {
+footer  {
 	display: flex;
 	justify-content: space-between;
 }
 
-.Thesis-content span {
+footer span {
 	font-size: 1rem;
 }
