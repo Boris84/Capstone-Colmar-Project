@@ -153,18 +153,18 @@ nav a:hover {
 }
 .top-section p {
 	width: 100%;
-	font-family: "";
+	
 	font-size: 1.1rem;
 	line-height: 1.4;
 	letter-spacing: 1px;
 	word-spacing: 2px; 
-	margin: -9px 0px 45px 0px;
+	margin: -9px 0px 11.5px 0px;
 	font-weight: normal;
 }
 .top-section div {
 	font-family: "";
 	letter-spacing: 0.8px;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: normal;
 	margin-bottom: 32px;
 	word-spacing: 1px;
@@ -199,7 +199,7 @@ nav a:hover {
 
 .info-images img {
 	width: 35%;
-	height: 190px;
+	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
 	margin: 0px 0px 16px 16px;
@@ -237,9 +237,10 @@ nav a:hover {
  /* Start-Learning */
 .Careers {
 	width: 100%;
-    background-color: #FAFAD2;
+    background-color: #fafad2;
     margin-bottom: 32px;
     border-top: solid 1px #d3d3d3;
+    border-bottom: solid 1px #d3d3d3;
 }
 
 .Careers h2 {
@@ -249,7 +250,7 @@ nav a:hover {
 	font-weight: normal;
 	font-size: 2.9rem;
 	text-align: center;
-	text-shadow: 4px 4px #ffff33;
+	text-shadow: 3px 3px #ffff33;
     margin: 0px 0px 64px 0px;
 }
 
@@ -257,7 +258,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-	width: 100%;
+    width: 100%;
 }
 
 .Boxes div {
@@ -289,45 +290,71 @@ nav a:hover {
 /*bottom-section */
  /*Thesis-Exibit */
 
-.Thesis {
- 	width: 100%;
- 	margin: 0px 24px 32px 24px;
- }
-
-
-.Thesis h2 {
-	width: 100%;
-    font-family: "Kranky";
-    font-size: 2.9rem;
-    font-weight: normal;
-    margin: 32px 0px 32px 0px;
-    text-align: center;
-    text-shadow: 4px 4px #ffff33;
+.title h2 {
+	text-align: center;
+	font-family: "Kranky";
+	font-size: 2.9rem;
+	font-weight: normal;	
+	text-shadow: 3px 3px #ffff33;
 }
 
-.Thesis .top-section {
+.Thesis-content {
 	display: flex;
+}
+
+.Thesis-content .top-section {
 	width: 60%;
-	margin: 0px 0px 24px 0px;
-	justify-content: center
+	margin: 0px 24px 24px 24px;
 }
 
-.Thesis .top-section video {
-    width: 100%;
+.Thesis-content video {
+	width: 100%;
 }
 
-.Thesis .images {
-	
-    background-color: #d3d3d3;
-    margin-left: 24px;
+.Thesis-content .images {
+	display; flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.Thesis-content .images div {
+	width: 100%;
+	display: flex;
+	background-color: #fafad2;
+	border: solid 1px #d3d3d3;
+    padding: 16px 0px 16px 16px;
+}
+
+.Thesis-content .images div:first-child {
+    border-top: none;
+    border-bottom: none;
+}
+
+.Thesis-content .images div:last-child {
+	border-bottom: none;
+}
+
+.Thesis-content .images img {
 	width: 35%;
+	height: 11.1rem;
+	border: solid 4px #d3d3d3;
+	border-radius: 20px;
 }
 
-.Thesis .images img {
-
-	width: 100%
+.Thesis-content .images section {
+	margin-left: 16px;
+	width: 50%;
+	line-height: 1.4;
+	letter-spacing: 0.8px;
+	font-size: 1.1rem;
 }
 
-.Thesis .images section {
-
+.Thesis-content .images h3 {
+	width: 100%;
+	font-family: "josefin Sans";
+	font-size: 1.8rem;
+	line-height: 1.1;
+	font-weight: normal;
+	text-shadow: 2px 2px #ffff33;
+	margin-bottom: -6px;
 }
