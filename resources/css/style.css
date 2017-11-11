@@ -89,7 +89,7 @@ nav a:hover {
     font-weight: normal;
 }
 .top-banner h3 {
-	font-family: serif;
+	font-family: "Kreon", serif;
 	margin: 20px 0px 30px 3px;
 	letter-spacing: 1.5px;
     word-spacing: 8px;
@@ -152,7 +152,7 @@ nav a:hover {
 }
 .top-section p {
 	width: 100%;
-	font-family: serif;
+	font-family: "Kreon", serif;
 	font-size: 1.1rem;
 	line-height: 1.4;
 	letter-spacing: 0.8px;
@@ -162,8 +162,8 @@ nav a:hover {
 }
 .top-section div {
 	font-family: serif;
-	letter-spacing: 0.8px;
-	font-size: 1rem;
+	letter-spacing: 0.6px;
+	font-size: 0.8rem;
 	font-weight: normal;
 	margin-bottom: 32px;
 	word-spacing: 1px;
@@ -220,9 +220,11 @@ nav a:hover {
 }
 .main-content .info-images span {
     letter-spacing: 0.8px;
+    font-family: "Kreon", serif;
 }
 .main-content .info-images p {
 	margin-top: 8px;
+	font-family: "kreon", serif;
 }
 .main-content .info-images a {
 	color: black;
@@ -248,7 +250,7 @@ nav a:hover {
 	top: 32px;
 	font-family: "Kranky";
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 2.9rem;
 	text-align: center;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px #ffff33;
@@ -264,6 +266,7 @@ nav a:hover {
     background-color: #ffffff;
     border: solid 4px #d3d3d3;
     margin: 0px 17px 32px 17px;
+    font-family: "Kreon", serif;
     box-shadow: 5px 6px black;
     border-radius: 24px;
     width: 26%;
@@ -276,7 +279,6 @@ nav a:hover {
 	border-top-left-radius: 20px;
 }
 .Boxes h3 {
-    font-family: serif;
     margin: 16px 0px 8px 16px;
     letter-spacing: 0.8px;
 }
@@ -288,7 +290,7 @@ nav a:hover {
 	margin: 8px 0px 24px 16px;
 	letter-spacing: 0.8px;
 	line-height: 1.5rem;
-	font-family: serif;
+	font-family: "Kreon", serif;
 	font-size: 1.1rem;
 }
 
@@ -320,22 +322,19 @@ nav a:hover {
 	font-size: 1.8rem;
     letter-spacing: 1px;
 }
-
 .Thesis-content .top-section p {
-	margin: 8px 0px 0px 0px;
+	margin-top: 8px;
+	font-family: "kreon", serif;
 }
-
 .Thesis-content video {
 	width: 100%;
 	border: solid 4px #d3d3d3;
 }
-
 .Thesis-content .images {
 	display; flex;
 	flex-direction: column;
 	width: 40%;
 }
-
 .Thesis-content .images div {
 	width: 100%;
 	height: 31%;
@@ -344,16 +343,13 @@ nav a:hover {
 	border: solid 1px #d3d3d3;
     padding: 16px 0px 16px 16px;
 }
-
 .Thesis-content .images div:first-child {
     border-top: none;
     border-bottom: none;
 }
-
 .Thesis-content .images div:last-child {
 	border-bottom: none;
 }
-
 .Thesis-content .images img {
 	width: 35%;
 	height: 11.1rem;
@@ -361,13 +357,11 @@ nav a:hover {
 	border-radius: 20px;
 	box-shadow: 4px 5px black;
 }
-
 .Thesis-content .images section {
 	margin-left: 16px;
 	width: 50%;
 	font-size: 1.1rem;
 }
-
 .Thesis-content .images h3 {
 	width: 100%;
 	font-family: "Josefin Sans";
@@ -378,22 +372,19 @@ nav a:hover {
 	text-shadow: 2px 2px #ffff33;
 	margin-bottom: 8px;
 }
-
 .Thesis-content .images span {
+	font-family: "Kreon", serif;
 	letter-spacing: 0.8px;
 }
-
 footer  {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	margin: 16px 0px 32px 24px;
 }
-
 footer span {
-	font-size: 1rem;	
+	font-size: 0.8rem;	
 }
-
 footer .terms {
 	word-spacing: 10px;
 	margin-right: 48px;
