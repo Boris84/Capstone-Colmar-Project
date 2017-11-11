@@ -91,7 +91,7 @@ nav a:hover {
     font-weight: normal;
 }
 .top-banner h3 {
-	font-family: "Times New Roman", serif;
+	font-family: serif;
 	margin: 20px 0px 30px 3px;
 	letter-spacing: 2px;
     word-spacing: 8px;
@@ -155,7 +155,7 @@ nav a:hover {
 }
 .top-section p {
 	width: 100%;
-	font-family: serif, "EB Garamond";
+	font-family: serif;
 	font-size: 1.1rem;
 	line-height: 1.4;
 	letter-spacing: 1px;
@@ -164,7 +164,7 @@ nav a:hover {
 	font-weight: normal;
 }
 .top-section div {
-	font-family: serif, "EB Garamond";
+	font-family: serif;
 	letter-spacing: 0.8px;
 	font-size: 1rem;
 	font-weight: normal;
@@ -276,7 +276,7 @@ nav a:hover {
 }
 
 .Boxes h3 {
-    font-family: serif, "EB Garamond";
+    font-family: serif;
     margin: 16px 0px 8px 16px;
 }
 
@@ -373,7 +373,7 @@ nav a:hover {
 
 .Thesis-content .images h3 {
 	width: 100%;
-	font-family: "josefin Sans";
+	font-family: "Josefin Sans";
 	font-size: 1.8rem;
 	line-height: 1.3;
 	font-weight: normal;
