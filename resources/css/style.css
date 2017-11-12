@@ -10,7 +10,7 @@ body {
 /* header */
 header {
 	display: flex;
-    width: 100%;
+	width: 100%;
 	height: 64px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -62,21 +62,28 @@ nav a:hover {
 
 
 
-/* header media queries header desktop */
-@media only screen and (max-width: 1024px) {
+/* media queries desktop */
+@media only screen and (min-width: 480px) {
+
+
 
 .mobile-nav-container {
 	display: none;
 }
+
 }
 
 
 /* header media queries mobile */
 @media only screen and (max-width: 480px) {
 
-nav .desktop {
+
+nav.desktop {
 	display: none;
 }  
+header div  {
+	display: none;
+}
 }
 
 
