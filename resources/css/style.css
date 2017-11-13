@@ -62,33 +62,6 @@ nav a:hover {
 
 
 
-/* media queries desktop */
-@media only screen and (min-width: 480px) {
-
-
-
-.mobile-nav-container {
-	display: none;
-}
-
-}
-
-
-/* header media queries mobile */
-@media only screen and (max-width: 480px) {
-
-
-nav.desktop {
-	display: none;
-}  
-header div  {
-	display: none;
-}
-}
-
-
-
-
 /*top-banner section*/ 
 .top-banner {
 	display: flex;
@@ -420,4 +393,62 @@ footer span {
 footer .terms {
 	word-spacing: 10px;
 	margin-right: 48px;
+}
+
+
+
+
+
+/* media queries desktop */
+@media only screen and (min-width: 880px) {
+
+nav.mobile-nav-container {
+	display: none;
+ }
+}
+
+/* header media queries desktop 880px*/
+@media only screen and (max-width: 880px) {
+
+nav.mobile-nav-container {
+	display: none;
+}
+
+nav.desktop {
+	font-size: 0.6rem;
+}  
+
+header .logo {
+	height: 2.4rem;
+	margin-bottom: -12px;
+}
+header div {
+	position: relative;
+	top: 11px;
+	font-size: 1.2rem;
+	bottom: -17px;
+}
+header nav a {
+	top: 22px;
+	height: 16px;
+	font-size: 0.9rem;
+	}
+}
+
+
+/* header media queries mobile 620px */  
+@media only screen and (max-width: 660px) {
+
+nav.desktop {
+	display: none;
+}
+
+header div {
+	display: none;
+}
+
+nav.mobile-nav-container {
+	display: flex;
+
+}
 }
