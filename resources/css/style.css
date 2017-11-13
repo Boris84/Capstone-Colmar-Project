@@ -38,7 +38,7 @@ nav {
 nav a {
 	top: 19px;
     height: 22.5px;
-    line-height: 0.9;
+    line-height: 1.1;
     position: relative;
 	font-family: "Caveat Brush";
 	text-decoration: none;
@@ -49,7 +49,7 @@ nav a {
 	letter-spacing: 1px;
     margin: 0px 16px 0px 16px;
     padding: 1.5px 5px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: normal;
     color: black;
     bottom: 7px;
@@ -69,7 +69,7 @@ nav a:hover {
     border-top: solid 1px #d3d3d3;
 }
 .top-banner img {
-	height: 50%;
+	height: 550px;
 	width: 57.5%;
 	margin: 32px 24px 32px 24px; 
 	border: solid 4px #d3d3d3;
@@ -86,7 +86,7 @@ nav a:hover {
     margin-bottom: 2px;
     text-shadow: 3px 3px #ffff33;
     color: black;
-    font-size: 3.8rem;
+    font-size: 3.1rem;
     font-weight: normal;
 }
 .top-banner h3 {
@@ -101,7 +101,7 @@ nav a:hover {
 .button {
 	display: flex;
 	text-align: center;
-	padding: 12px 0px 12px 186px;
+	padding: 12px 0px 12px 145px;
 	line-height: 0.8;
 	font-family: "Caveat Brush";
 	font-weight: normal;
@@ -436,9 +436,12 @@ header nav a {
 	font-size: 0.9rem;
 	}
 
-/* top-banner desktop mq */ 
+
+/* top-banner desktop mq */
+@media only screen and (min-width: 1120px) {
+
 .top-banner h1 {
-   
+   font-size: 1rem;
 }	
 }
 
@@ -457,7 +460,4 @@ nav.mobile-nav-container {
 	display: flex;
 	justify-content: space-evenly;
     width: 100%;
-}
-/* top-banner-section mq */
-
 }
