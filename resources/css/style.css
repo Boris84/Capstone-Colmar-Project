@@ -398,8 +398,10 @@ footer .terms {
 
 
 
+/* Media Queries */
 
-/* media queries desktop */
+
+/* header desktop 880px mq */
 @media only screen and (min-width: 880px) {
 
 nav.mobile-nav-container {
@@ -407,7 +409,7 @@ nav.mobile-nav-container {
  }
 }
 
-/* header media queries desktop 880px*/
+/* header desktop 880px mq */
 @media only screen and (max-width: 880px) {
 
 nav.mobile-nav-container {
@@ -433,10 +435,14 @@ header nav a {
 	height: 16px;
 	font-size: 0.9rem;
 	}
+
+/* top-banner desktop mq */ 
+.top-banner h1 {
+   
+}	
 }
 
-
-/* header media queries mobile 620px */  
+/* header mobile 620px mq */  
 @media only screen and (max-width: 660px) {
 
 nav.desktop {
@@ -449,6 +455,9 @@ header div {
 
 nav.mobile-nav-container {
 	display: flex;
-
+	justify-content: space-evenly;
+    width: 100%;
 }
+/* top-banner-section mq */
+
 }
