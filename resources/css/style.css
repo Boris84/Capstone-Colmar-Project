@@ -100,8 +100,8 @@ nav a:hover {
 }
 .button {
 	display: flex;
-	text-align: center;
-	padding: 12px 0px 12px 145px;
+	justify-content: center;
+	padding: 12px 0px 12px 0px;
 	line-height: 0.8;
 	font-family: "Caveat Brush";
 	font-weight: normal;
@@ -437,15 +437,9 @@ header nav a {
 	}
 
 
-/* top-banner desktop mq */
-@media only screen and (min-width: 1120px) {
 
-.top-banner h1 {
-   font-size: 1rem;
-}	
-}
 
-/* header mobile 620px mq */  
+/* header mobile 660px mq */  
 @media only screen and (max-width: 660px) {
 
 nav.desktop {
@@ -460,4 +454,76 @@ nav.mobile-nav-container {
 	display: flex;
 	justify-content: space-evenly;
     width: 100%;
+}
+
+.top-banner {
+	display: block;
+}
+
+.top-banner img {
+	width: 100%;
+	height: 300px;
+	margin: 0px 0px -23px 0px;
+	border-radius: 0px;
+}
+.top-banner section {
+	margin: 0px 0px 32px 16px;
+}
+
+.top-banner h1 {
+	font-size: 2.9rem;
+}
+
+.top-banner h3 {
+    font-size: 1.2rem;
+}
+
+.button {
+	justify-content: center;
+	padding-left: 0px;
+	margin-right: 16px;
+	font-size: 1.3rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+	
+.top-banner h1 {
+    font-size: 2rem;
+}
+
+.top-banner h3 {
+		font-size: 1rem;
+}
+
+.button  {
+	font-size: 1.1rem;
+	padding: 9px 0px 9px 0px;
+}
+
+
+@media only screen and (max-width: 380px) {
+
+.top-banner h3 {
+	font-size: 1rem;
+}
+
+.button  {
+	font-size: 1rem;
+	padding: 7px 0px 7px 0px;
+}
+}
+
+@media only screen and (max-width: 310px) {
+
+.top-banner h1 {
+	font-size: 1.5rem;
+ }
+.top-banner h3 {
+	font-size: 0.9rem;
+}
+
+.button {
+	font-size: 0.9rem;
+}
 }
