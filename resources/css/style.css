@@ -301,7 +301,7 @@ nav a:hover {
 .title h2 {
 	text-align: center;
 	font-family: "Kranky";
-	font-size: 3rem;
+	font-size: 2.9rem;
 	font-weight: normal;
 	letter-spacing: 2px;	
 	text-shadow: 3px 3px #ffff33;
@@ -467,8 +467,6 @@ header nav a {
 
 }
 
-
-
 /* top-banner desktop 866px mq */
 @media only screen and (max-width: 866px) {
 
@@ -517,6 +515,7 @@ nav.mobile-nav-container {
 }
 
 .top-banner section {
+	text-align: center;
 	margin: 0px 0px 32px 16px;
 }
 
