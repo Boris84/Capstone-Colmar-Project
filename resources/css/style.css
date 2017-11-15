@@ -38,7 +38,7 @@ nav {
 nav a {
 	top: 19px;
     height: 22.5px;
-    line-height: 1.1;
+    line-height: 0.9;
     position: relative;
 	font-family: "Caveat Brush";
 	text-decoration: none;
@@ -49,7 +49,7 @@ nav a {
 	letter-spacing: 1px;
     margin: 0px 16px 0px 16px;
     padding: 1.5px 5px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: normal;
     color: black;
     bottom: 7px;
@@ -86,7 +86,7 @@ nav a:hover {
     margin-bottom: 2px;
     text-shadow: 3px 3px #ffff33;
     color: black;
-    font-size: 3.4rem;
+    font-size: 3.5rem;
     font-weight: normal;
 }
 .top-banner h3 {
@@ -438,11 +438,23 @@ header nav a {
 
 }
 
+@media only screen and (max-width: 1234px) {
+	.top-banner section {
+		margin-top: 65px;
+	}
+}
+
+@media only screen and (max-width: 1099px) {
+	.top-banner section {
+		margin-top: 45px;
+	}
+}
+
  /* top-banner desktop 1049px mq */
 @media only screen and (max-width: 1080px) {
 
 .top-banner section {
-	margin-top: 65px;
+	margin-top: 45px;
 }
 
 .top-banner h3 {
@@ -455,16 +467,10 @@ header nav a {
 
 }
 
+
+
 /* top-banner desktop 866px mq */
 @media only screen and (max-width: 866px) {
-
-.top-banner section {
-		margin-top: 25px;
-	}
-}
-
-/* top-banner desktop 760px mq */
-@media only screen and (max-width: 760px) {
 
 .top-banner h1 {
 	font-size: 2.8rem;
