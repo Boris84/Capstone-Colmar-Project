@@ -491,6 +491,8 @@ header nav a {
 }
 
 
+
+
 /* MOBILE MEDIA QUERIES */
 
 /* header mobile 660px mq */  
@@ -587,3 +589,15 @@ nav.mobile-nav-container {
 	font-size: 0.9rem;
 }
 }
+
+/* MAIN-CONTENT SECTION MOBILE*/
+
+/* main-content section mobile */
+@media only screen and (max-width: 480px) {
+
+.top-section img {
+	display: none;
+}
+
+}
+
