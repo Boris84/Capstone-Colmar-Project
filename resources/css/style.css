@@ -162,7 +162,7 @@ nav a:hover {
 	font-weight: normal;
 }
 .top-section div {
-	font-family: serif;
+	font-family: "Kreon", serif;
 	letter-spacing: 0.6px;
 	font-size: 0.8rem;
 	font-weight: normal;
@@ -248,14 +248,14 @@ nav a:hover {
 
 .Careers h2 {
 	position: relative;
-	top: 32px;
+	top: 22px;
 	font-family: "Kranky";
 	font-weight: normal;
 	font-size: 2.9rem;
 	text-align: center;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px #ffff33;
-    margin: 0px 0px 64px 0px;
+    margin: 0px 0px 42px 0px;
 }
 .Boxes {
     display: flex;
@@ -305,7 +305,7 @@ nav a:hover {
 	font-weight: normal;
 	letter-spacing: 2px;	
 	text-shadow: 3px 3px #ffff33;
-	margin: 32px 0px 32px 0px
+	margin: -10px 0px 22px 0px
 }
 .Thesis-content {
 	display: flex;
@@ -384,6 +384,7 @@ nav a:hover {
 footer  {
 	width: 100%;
 	display: flex;
+	font-family: "Kreon", serif;
 	justify-content: space-between;
 	margin: 16px 0px 32px 24px;
 }
@@ -521,6 +522,7 @@ nav.mobile-nav-container {
 	height: 300px;
 	margin: 0px 0px -23px 0px;
 	border-radius: 0px;
+
 }
 
 .top-banner section {
@@ -592,12 +594,67 @@ nav.mobile-nav-container {
 
 /* MAIN-CONTENT SECTION MOBILE*/
 
-/* main-content section mobile */
+/* main-content section mobile 480px */
 @media only screen and (max-width: 480px) {
 
-.top-section img {
+.main-content .top-section  {
 	display: none;
 }
 
+.main-content .info-images {
+    width: 100%;
+    margin: 16px 16px 0px 16px;
+
+}
+.main-content .info-images div {
+	display: flex;
+	flex-wrap: wrap;
+	border: none;
 }
 
+.main-content .info-images img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 0px;
+}
+
+.main-content .info-images section {
+    margin: 32px 0px 32px 16px;
+}
+.main-content .info-images h3 {
+	font-size: 1.4rem;
+}
+}
+
+
+/* MAIN-SECTION */
+/* Start-learning mobile 480px */
+@media only screen and (max-width: 480px) {
+.Careers {
+	width: 100%;
+	text-align: center;
+}
+
+.Careers h2 {
+	font-size: 2rem;
+	margin: 1px 0px 43px 0px;
+}
+
+.Boxes {
+	display: flex;
+	flex-direction: column;
+}
+.Boxes div {
+	width: 100%;
+	border-radius: 0px;
+	margin-left: 0px;
+}
+.Boxes img ,span, p {
+	display: none;
+}
+.Boxes h3 {
+	width: 100%;
+	
+}
+}
