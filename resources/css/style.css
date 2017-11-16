@@ -592,10 +592,10 @@ nav.mobile-nav-container {
 }
 }
 
-/* MAIN-CONTENT SECTION MOBILE*/
+/* MAIN-CONTENT DESKTOP*/
 
-/* main-content section mobile 480px */
-@media only screen and (max-width: 480px) {
+/* main-content desktop 725px */
+@media only screen and (max-width: 725px) {
 
 .main-content .top-section  {
 	display: none;
@@ -623,21 +623,21 @@ nav.mobile-nav-container {
     margin: 32px 0px 32px 16px;
 }
 .main-content .info-images h3 {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 }
 
 
-/* MAIN-SECTION */
-/* Start-learning mobile 480px */
-@media only screen and (max-width: 480px) {
+/* MAIN-SECTION - CAREERS */
+/* Start-learning desktop 725px */
+@media only screen and (max-width: 725px) {
 .Careers {
 	width: 100%;
 	text-align: center;
 }
 
 .Careers h2 {
-	font-size: 2rem;
+	font-size: 2.8rem;
 	margin: 1px 0px 43px 0px;
 }
 
