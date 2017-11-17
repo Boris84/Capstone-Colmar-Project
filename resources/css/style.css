@@ -128,7 +128,7 @@ nav a:hover {
   /* top-section */
 .main-content {
 	display: flex;	
-	border-top: solid 1px #d3d3d3;
+	border-top: solid 1px #d3d3d3;c
 }
 .main-content .top-section {
 	margin-left: 24px;
@@ -451,11 +451,18 @@ header div {
 
 nav.mobile-nav-container {
 	display: flex;
+	width: 100%;
 	justify-content: space-evenly;
-    width: 100%;
-}
 }
 
+nav.mobile-nav-container a { 
+	height: 25px;
+}
+
+nav.mobile-nav-container img:first-child {
+    padding: 3px;
+    
+}
 
   /* TOP-BANNER */
 /* top-banner desktop 1234px mq */
