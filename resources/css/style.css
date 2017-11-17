@@ -65,8 +65,9 @@ nav a:hover {
 /*top-banner section*/ 
 .top-banner {
 	display: flex;
-    background-color: #FAFAD2;
     border-top: solid 1px #d3d3d3;
+    background-color: #FAFAD2;
+    height: 100%;
 }
 .top-banner img {
 	height: 500px;
@@ -455,12 +456,14 @@ nav.mobile-nav-container {
 	justify-content: space-evenly;
 }
 
-nav.mobile-nav-container a { 
-	height: 25px;
+nav.mobile-nav-container a {
+	margin-top: -7px;
+    padding-top: 4px; 
+	height: 26px;
 }
 
-nav.mobile-nav-container img:first-child {
-    padding: 3px;
+nav.mobile-nav-container a:first-child img {
+    margin-top: -2px;
     
 }
 
@@ -635,9 +638,14 @@ nav.mobile-nav-container img:first-child {
 	flex-wrap: wrap;
 	border: none;
 }
+.main-content .info-images div:first-child section {
+    margin-bottom: -5px;
+}
+
 .main-content .info-images div:last-child {
 	width: 100%;
 	background-size: cover;
+	border-top: solid 1px #d3d3d3;
 }
 
 .main-content .info-images img {
@@ -650,7 +658,8 @@ nav.mobile-nav-container img:first-child {
 }
 
 .main-content .info-images section {
-    margin: 32px 0px 32px 32px;
+    margin: 32px 0px 12px 32px;
+    font-size: 1rem;
 }
 
 .main-content .info-images h3 {
@@ -676,7 +685,7 @@ nav.mobile-nav-container img:first-child {
 }
 
 .Careers h2 {
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 	margin: 1px 0px 43px 0px;
 }
 
@@ -688,15 +697,21 @@ nav.mobile-nav-container img:first-child {
 .Careers .Boxes div {
 	width: 100%;
 	border-radius: 0px;
-	margin-left: 0px;
+	text-align: center;
+	margin: 0px 0px 8px 0px;
 }
 
-.Careers .Boxes img, span, p  {
-	display: none;
+.Careers .Boxes div:last-child {
+    margin-bottom: 38px;
 }
 
 .Careers .Boxes h3 {
 	display: block;
+	margin-left: 0px;
 	width: 100%;	
+}
+
+.Careers .Boxes img, span, p  {
+	display: none;
 }
 }
