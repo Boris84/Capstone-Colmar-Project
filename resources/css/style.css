@@ -390,7 +390,7 @@ footer  {
 	justify-content: space-between;
 	margin: 16px 0px 32px 24px;
 }
-footer span {
+footer div {
 	font-size: 0.8rem;	
 }
 footer .terms {
@@ -400,17 +400,16 @@ footer .terms {
 
 
 
+/* MEDIA QUERIES */
 
 
-  /* DESKTOP MEDIA QUERIES */
-/* header desktop 880px mq */
+/* HEADER DESKTOP 880px MQ */
 @media only screen and (min-width: 880px) {
 
 nav.mobile-nav-container {
 	display: none;
  }
 }
-
 /* header desktop 880px mq */
 @media only screen and (max-width: 880px) {
 
@@ -426,19 +425,20 @@ header .logo {
 	height: 2.4rem;
 	margin-bottom: -12px;
 }
+
 header div {
 	position: relative;
 	top: 11px;
 	font-size: 1.2rem;
 	bottom: -17px;
 }
+
 header nav a {
 	top: 22px;
 	height: 16px;
 	font-size: 0.9rem;
 }
 }
-
 /* header desktop 725px mq */  
 @media only screen and (max-width: 725px) {
 
@@ -464,26 +464,27 @@ nav.mobile-nav-container a {
 
 nav.mobile-nav-container a:first-child img {
     margin-top: -2px;
-    
 }
 
-  /* TOP-BANNER */
-/* top-banner desktop 1234px mq */
+
+
+  
+  
+/* TOP-BANNER DESKTOP 1234px MQ */
 @media only screen and (max-width: 1234px) {
 
 .top-banner section {
-		margin-top: 65px;
-	}
+	margin-top: 65px;
+ }
 }
-
+/* top-banner desktop 1099px mq */
 @media only screen and (max-width: 1099px) {
 
 .top-banner section {
-		margin-top: 20px;
-	}
+	margin-top: 20px;
+ }
 }
-
- /* top-banner desktop 1080px mq */
+/* top-banner desktop 1080px mq */
 @media only screen and (max-width: 1080px) {
 
 .top-banner section {
@@ -496,9 +497,8 @@ nav.mobile-nav-container a:first-child img {
 
 .button {
 	font-size: 1.4rem;
+ }
 }
-}
-
 /* top-banner desktop 866px mq */
 @media only screen and (max-width: 866px) {
 
@@ -513,17 +513,15 @@ nav.mobile-nav-container a:first-child img {
 }
 .button {
 	font-size: 1.3rem;
+ }
 }
-}
-
 /* top-banner desktop 825px mq */
 @media only screen and (max-width: 825px)  {
 
 .top-banner section {
 	margin-top: 27px;
-	}
+ }
 }
-
 /* top-banner desktop 725px mq */
 @media only screen and (max-width: 725px) {
 
@@ -557,11 +555,9 @@ nav.mobile-nav-container a:first-child img {
 	padding-left: 0px;
 	margin-right: 16px;
 	font-size: 1.3rem;
+ }
 }
-}
-
-
-   /* MOBILE */
+       /* MOBILE */
 /* top-banner mobile 480px mq */
 @media only screen and (max-width: 480px) {
 	
@@ -570,16 +566,14 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .top-banner h3 {
-		font-size: 1rem;
+	font-size: 1rem;
 }
 
 .button  {
 	font-size: 1.1rem;
 	padding: 9px 0px 9px 0px;
+ }
 }
-}
-
-
 /* top-banner mobile 380px mq */
 @media only screen and (max-width: 380px) {
 
@@ -590,38 +584,27 @@ nav.mobile-nav-container a:first-child img {
 .button  {
 	font-size: 1rem;
 	padding: 7px 0px 7px 0px;
+ }
 }
-}
-
 /* top-banner mobile 310px mq */
 @media only screen and (max-width: 310px) {
 
 .top-banner h1 {
 	font-size: 1.5rem;
  }
+
 .top-banner h3 {
 	font-size: 0.9rem;
 }
 
 .button {
 	font-size: 0.9rem;
+ }
 }
-}
 
 
 
-
-
-
-
-
-
-
-
-
-/* MAIN-CONTENT DESKTOP*/
-
-/* main-content desktop 725px */
+/* MAIN-CONTENT DESKTOP 725px MQ */
 @media only screen and (max-width: 725px) {
 
 .main-content .top-section  {
@@ -634,7 +617,6 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .info-images div {
-	display: flex;
 	flex-wrap: wrap;
 	border: none;
 }
@@ -671,12 +653,9 @@ nav.mobile-nav-container a:first-child img {
 }
 .main-content .info-images p {
 	display: block;
+ }
 }
-}
-
-
-/* MAIN-SECTION - CAREERS */
-/* Start-learning desktop 725px */
+/* main-section desktop 725px */
 @media only screen and (max-width: 725px) {
 
 .Careers {
@@ -690,7 +669,6 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .Careers .Boxes {
-	display: flex;
 	flex-direction: column;
 }
 
@@ -713,12 +691,12 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes img, span, p  {
 	display: none;
-}
+ }
 }
 
 
-  /* top-Section*/
-/* Thesis-exibit section */
+  
+/* THESIS-EXIBIT (top-section) DESKTOP 725px MQ */
 @media only screen and (max-width: 725px) {
 
 .title h2 {
@@ -741,5 +719,19 @@ nav.mobile-nav-container a:first-child img {
 
 .Thesis-content .top-section video {
     width: 100%;
+ }
 }
+
+
+ 
+/* FOOTER MOBILE 480px MQ */ 
+@media only screen and (max-width: 480px) {
+
+footer {
+	justify-content: center;
+}
+
+footer .terms {
+ 	display: none;
+ }
 }
