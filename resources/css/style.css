@@ -236,6 +236,9 @@ nav a:hover {
     color: #d3d3d3;
     transition: color 150ms ease-in-out;  
 }
+.main-content .mobile-images {
+	display: none;
+}
 
 
 /*main-section */
@@ -756,6 +759,18 @@ nav.mobile-nav-container a:first-child img {
 	display: block;
  }
 }
+/* MAIN-CONTENT MOBILE MQ */
+@media only screen and (max-width: 480px) {
+
+.main-content .mobile-images {
+	display: block;
+ } 
+
+.main-content .info-images {
+	display: none;
+ }
+}
+
 
 
 /* MAIN-SECTION CAREERS DESKTOP */
