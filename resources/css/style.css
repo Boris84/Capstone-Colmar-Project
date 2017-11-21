@@ -846,7 +846,11 @@ nav.mobile-nav-container a:first-child img {
 	width: 100%;	
 }
 
-.Careers .Boxes img, span, p  {
+.Careers .Boxes img {
+	display: none;
+}
+
+div.course-info {
 	display: none;
  }
 }
