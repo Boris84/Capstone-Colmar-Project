@@ -159,7 +159,7 @@ nav a:hover {
 	line-height: 1.4;
 	letter-spacing: 0.8px;
 	word-spacing: 2px; 
-	margin: -9px 0px 11.4px 0px;
+	margin: -9px 0px 13px 0px;
 	font-weight: normal;
 }
 .top-section div {
@@ -219,18 +219,17 @@ nav a:hover {
 	margin: 40px 0px 0px 16px;
 	flex-direction: column;
 	letter-spacing: 0.8px;
+	font-family: "kreon", serif;
 	font-size: 1.1rem;
 }
 .main-content .info-images span {
     letter-spacing: 0.8px;
-    font-family: "Kreon", serif;
-}
-.main-content .info-images p {
-	margin-top: 8px;
-	font-family: "kreon", serif;
-}
+}	
 .main-content .info-images a {
 	color: black;
+	position: relative;
+	top: 8px;
+	margin-bottom: 28px;
 }
 .main-content .info-images a:hover {
     color: #d3d3d3;
@@ -644,7 +643,7 @@ nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 959px) {
 .main-content .info-images div:last-child section {
     
-    margin-top: 10px;
+     margin-top: 10px;
  }
 }
 
@@ -723,10 +722,23 @@ nav.mobile-nav-container a:first-child img {
 	flex-wrap: wrap;
 	border: none;
 }
+
 .main-content .info-images div:first-child section {
-    margin-bottom: -5px;
+    margin-top: 29px;
+    margin-bottom: 16px;
 }
 
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 29px;
+    margin-bottom: 16px;
+}
+
+.main-content .info-images div:last-child section {
+	margin-top: 29px;
+	margin-bottom: 16px;
+}
+
+}
 .main-content .info-images div:last-child {
 	width: 100%;
 	background-size: cover;
@@ -749,14 +761,6 @@ nav.mobile-nav-container a:first-child img {
 
 .main-content .info-images h3 {
 	font-size: 1.5rem;
-}
-
-.main-content .info-images span {
-    display: block;
-}
-
-.main-content .info-images p {
-	display: block;
  }
 }
 /* MAIN-CONTENT MOBILE MQ */
