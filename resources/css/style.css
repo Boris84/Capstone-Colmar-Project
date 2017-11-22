@@ -214,7 +214,7 @@ nav a:hover {
 	margin: 0px 0px 8px 0px;
 	font-family: "Josefin Sans";
 }
-.main-content .info-images section{
+.main-content .info-images section {
 	width: 65%;
 	margin: 40px 0px 0px 16px;
 	flex-direction: column;
@@ -229,7 +229,6 @@ nav a:hover {
 	color: black;
 	position: relative;
 	top: 8px;
-	margin-bottom: 28px;
 }
 .main-content .info-images a:hover {
     color: #d3d3d3;
@@ -719,26 +718,11 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .info-images div {
+	justify-content: center;
 	flex-wrap: wrap;
 	border: none;
 }
 
-.main-content .info-images div:first-child section {
-    margin-top: 29px;
-    margin-bottom: 16px;
-}
-
-.main-content .info-images div:nth-child(even) section {
-	margin-top: 29px;
-    margin-bottom: 16px;
-}
-
-.main-content .info-images div:last-child section {
-	margin-top: 29px;
-	margin-bottom: 16px;
-}
-
-}
 .main-content .info-images div:last-child {
 	width: 100%;
 	background-size: cover;
@@ -747,15 +731,20 @@ nav.mobile-nav-container a:first-child img {
 
 .main-content .info-images img {
 	display: block;
-	width: 100%;
 	height: auto;
+	width: auto;
 	margin: 0;
 	border-radius: 0px;
-	margin: 0px 16px 0px 16px;
+}
+
+.main-content .info-images div:first-child section {
+	width: 100%;
+    margin-bottom: 0px;
+    border-bottom: solid 1px #d3d3d3;
 }
 
 .main-content .info-images section {
-    margin: 32px 0px 12px 32px;
+	text-align: center;
     font-size: 1rem;
 }
 
