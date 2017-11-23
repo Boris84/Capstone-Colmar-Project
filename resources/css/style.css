@@ -267,7 +267,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    
 }
 .Careers .Boxes div {
     background-color: #ffffff;
@@ -296,7 +296,7 @@ nav a:hover {
 	margin: 0px 0px 0px 16px;
 	letter-spacing: 0.8px;
 }
-.Careers .Boxes p {
+.Boxes p.boxes-text {
 	margin: 8px 0px 24px 16px;
 	letter-spacing: 0.8px;
 	line-height: 1.6rem;
@@ -697,7 +697,7 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .top-section div {
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 }
 
 .main-content .info-images h3 {
@@ -736,24 +736,24 @@ nav.mobile-nav-container a:first-child img {
 	border: none;
 }
 
+.main-content .info-images div:last-child {
+	border-top: solid 1px #d3d3d3;
+}
+
 .main-content .info-images div:first-child section {
 	width: 100%;
-	margin-left: 0;
-	margin-bottom: 16px;
+	margin: 32px 0px 16px 0px;
 }
 
 .main-content .info-images div:nth-child(even) section {
 	margin-left: 0; 
-	margin-top: 35px;
-}
-
-.main-content .info-images div:last-child {
-	border-top: solid 1px #d3d3d3;
+	margin-top: 32px;
 }
 
 .main-content .info-images div:last-child section {
 	width: 100%;
 	background-size: cover;
+	margin-top: 32px;
 	margin-left: 0;
 }
 
@@ -826,7 +826,7 @@ nav.mobile-nav-container a:first-child img {
 .Careers .Boxes span  {
     font-size: 1rem;
  }
-.Careers p.boxes-text {
+.Boxes p.boxes-text {
 	font-size: 0.9;
 }
 }
@@ -876,7 +876,7 @@ nav.mobile-nav-container a:first-child img {
 	display: none;
 }
 
-p.boxes-text {
+.Boxes p.boxes-text {
 	display: none;
  }
 }
