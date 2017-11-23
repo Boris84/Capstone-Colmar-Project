@@ -217,7 +217,7 @@ nav a:hover {
 }
 .main-content .info-images section {
 	width: 65%;
-	margin: 30px 0px 0px 16px;
+	margin: 40px 0px 0px 16px;
 	flex-direction: column;
 	letter-spacing: 0.8px;
 	font-family: "kreon", serif;
@@ -263,13 +263,13 @@ nav a:hover {
 	text-shadow: 3px 3px #ffff33;
     margin: 0px 0px 42px 0px;
 }
-.Boxes {
+.Careers .Boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
-.Boxes div {
+.Careers .Boxes div {
     background-color: #ffffff;
     border: solid 4px #d3d3d3;
     margin: 0px 17px 32px 17px;
@@ -278,30 +278,30 @@ nav a:hover {
     border-radius: 24px;
     width: 26%;
 }
-.Boxes img {
+.Careers .Boxes img {
 	width: 100%; 
 	border-bottom-left-radius: none;
 	border-bottom-right-radius: none;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
-.Boxes h3 {
-	font-size: 1.6rem;
+.Careers .Boxes h3 {
+	font-size: 1.4rem;
 	font-weight: bold;
     margin: 16px 0px 8px 16px;
     letter-spacing: 0.8px;
 }
-.Boxes span {
+.Careers .Boxes span {
 	font-size: 1.1rem;
 	margin: 0px 0px 0px 16px;
 	letter-spacing: 0.8px;
 }
-.Boxes p {
+.Careers .Boxes p {
 	margin: 8px 0px 24px 16px;
 	letter-spacing: 0.8px;
 	line-height: 1.6rem;
 	font-family: "Kreon", serif;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 
@@ -623,7 +623,7 @@ nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 1220px) {
 .main-content .info-images div:last-child section {
     
-    margin-top: 20px;
+    margin-top: 15px;
  }
 }
 
@@ -676,7 +676,7 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .info-images section {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	letter-spacing: 0.6px;
  }
 
@@ -687,10 +687,13 @@ nav.mobile-nav-container a:first-child img {
 .main-content .info-images div:nth-child(even) section {
 	margin-top: 45px;
 }
-
+.main-content .info-images div:last-child section {
+	margin-top: 20px;
+ }
+}
 @media only screen and (max-width: 825px) {
 .main-content .top-section p {
-	font-size: 0.8rem;
+	font-size: ;
 }
 
 .main-content .top-section div {
@@ -698,17 +701,22 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .info-images h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
-.main-content .info-images section {
-    font-size: 0.8rem;
- }
 
 .main-content .info-images div:last-child section {
-	margin-top: 30px;
+	margin-top: 20px;
+ }
 }
 
-
+@media only screen and (max-width: 760px) {
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 35px;
+ }
+.main-content .info-images div:last-child section {
+    margin-top: 15px;
+ }
+}
 
 /* MAIN-CONTENT DESKTOP MQ */
 @media only screen and (max-width: 725px) {
@@ -772,6 +780,7 @@ nav.mobile-nav-container a:first-child img {
 
 .main-content .info-images a {
     line-height: 0;
+ }
 }
 /* MAIN-CONTENT MOBILE MQ */
 @media only screen and (max-width: 480px) {
@@ -790,6 +799,14 @@ nav.mobile-nav-container a:first-child img {
 /* MAIN-SECTION CAREERS DESKTOP */
 @media only screen and (max-width: 866px) {
 
+.Careers h2 {
+	font-size: 2.5rem;
+}
+
+.Careers .Boxes img {
+
+}
+
 .Careers .Boxes h3 {
     font-size: 1.3rem;
 }
@@ -798,33 +815,21 @@ nav.mobile-nav-container a:first-child img {
 	font-size: 1rem;
 }
 
-.Careers .Boxes p {
-	font-size: 1rem;
-	letter-spacing: 0.6px
+.Boxes p.boxes-text  {
+	font-size: 0.9rem;
+	letter-spacing: 0.6px;
  }
 }
 
 @media only screen and (max-width: 825px) {
 
-.Careers .Boxes h3 {
-    font-size: 1.2rem;
-}
-
-.Careers .Boxes span {
-    font-size: 0.9rem;
-}
-
-.Careers .Boxes p {
-    font-size: 0.8rem;
+.Careers .Boxes span  {
+    font-size: 1rem;
  }
+.Careers p.boxes-text {
+	font-size: 0.9;
 }
-
-
-
-
-
-
-
+}
 
 /* main-section desktop 725px */
 @media only screen and (max-width: 725px) {
@@ -841,6 +846,9 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes {
 	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: auto;
+	width: 100%;
 }
 
 .Careers .Boxes div {
@@ -864,6 +872,10 @@ nav.mobile-nav-container a:first-child img {
 	display: none;
 }
 
+.Careers .Boxes span {
+	display: none;
+}
+
 p.boxes-text {
 	display: none;
  }
@@ -875,7 +887,7 @@ p.boxes-text {
 @media only screen and (max-width: 725px) {
 
 .title h2 {
-	font-size: 2.6rem;
+	font-size: 2.4rem;
 	margin-bottom: 6px;
 }
 
@@ -894,6 +906,9 @@ p.boxes-text {
 
 .Thesis-content .top-section video {
     width: 100%;
+}
+.Thesis-content .top-section p {
+    font-size: 1rem;
  }
 }
 
