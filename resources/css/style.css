@@ -350,7 +350,7 @@ nav a:hover {
 }
 .Thesis-content .images div {
 	width: 100%;
-	height: 30.5%;
+	height: auto;
 	display: flex;
 	background-color: #fafad2;
 	border: solid 1px #d3d3d3;
