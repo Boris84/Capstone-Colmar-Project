@@ -182,6 +182,7 @@ nav a:hover {
 }  
 .main-content .info-images div {
 	width: 100%;
+    height: ;
 	display: flex;
 	border-bottom: solid 1px #d3d3d3;
 	border-left: solid 1px #d3d3d3;
@@ -203,7 +204,7 @@ nav a:hover {
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	margin: 0px 0px 16px 16px;
+	margin: 0px 16px 21px 16px;
 	box-shadow: 4px 5px black;
 }
 .main-content .info-images h3 {
@@ -217,7 +218,7 @@ nav a:hover {
 }
 .main-content .info-images section {
 	width: 65%;
-	margin: 40px 0px 0px 16px;
+	margin-top: 40px;
 	flex-direction: column;
 	letter-spacing: 0.8px;
 	font-family: "kreon", serif;
@@ -354,7 +355,6 @@ nav a:hover {
 	display: flex;
 	background-color: #fafad2;
 	border: solid 1px #d3d3d3;
-    padding: 16px 0px 16px 16px;
 }
 .Thesis-content .images div:first-child {
     border-top: none;
@@ -373,11 +373,11 @@ nav a:hover {
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
 	box-shadow: 4px 5px black;
+	margin: 16px 16px 21px 16px;
 }
 .Thesis-content .images section {
-	margin-left: 16px;
 	width: 40%;
-	height: 100%;
+	height: auto;
 	font-size: 1.1rem;
 }
 .Thesis-content .images h3 {
@@ -905,18 +905,47 @@ nav.mobile-nav-container a:first-child img {
   
   
   /* THESIS-EXIBIT DESKTOP */
+
+@media only screen and (max-width: 1300px) {
+.Thesis-content .images div:first-child section {
+     margin-top: -10px;  
+ }
+}
+@media only screen and (max-width: 1053px) {
+.Thesis-content .images div:first-child section {
+	 margin-top: -35px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
 /* thesis-exibit desktop 866px mq */
 @media only screen and (max-width: 866px) {
 
 .Thesis-content .top-section h3 {
     font-size: 1.6rem;
- }
+}
 .Thesis-content .top-section p {
 	font-size: 1rem;
 }
 .Thesis-content .images section {
  	font-size: 1rem;
+}
+.Thesis-content .images h3 {
+	font-size: 1.6rem;
  }
+}
+
+@media only screen and (max-width: 764px) {
+.Thesis-content .images div:last-child section {
+	margin-top: 8px;
 }
 /* theis-exibit desktop 725px mq */
 @media only screen and (max-width: 725px) {
