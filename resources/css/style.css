@@ -357,8 +357,12 @@ nav a:hover {
 	border: solid 1px #d3d3d3;
 }
 .Thesis-content .images div:first-child {
+	height: auto;
     border-top: none;
     border-bottom: none;
+}
+.Thesis-content .images div:first-child section {
+	margin-top: 20px;
 }
 .Thesis-content .images div:nth-child(2n+2) section {
     margin-top: 25px;
@@ -913,7 +917,7 @@ nav.mobile-nav-container a:first-child img {
 }
 @media only screen and (max-width: 1053px) {
 .Thesis-content .images div:first-child section {
-	 margin-top: -35px;
+	 margin-top: -22px;
  }
 }
 
@@ -937,6 +941,9 @@ nav.mobile-nav-container a:first-child img {
 }
 .Thesis-content .images section {
  	font-size: 1rem;
+}
+.Thesis-content .images div:first-child section {
+     margin-top: -17px;  
 }
 .Thesis-content .images h3 {
 	font-size: 1.6rem;
