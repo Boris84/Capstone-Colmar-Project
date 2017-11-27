@@ -963,6 +963,7 @@ nav.mobile-nav-container a:first-child img {
 }
 .Thesis-content .images div:last-child section {
 	 margin-top: 20px;
+ }
 }
 
 @media only screen and (max-width: 825px) {
@@ -1019,6 +1020,19 @@ nav.mobile-nav-container a:first-child img {
 
 
   /* FOOTER MOBILE MQ */ 
+@media only screen and (max-width: 825px) {
+
+footer {
+	font-size: 0.1rem;
+}
+}
+
+
+
+
+
+
+
 /* footer mobile 480px */
 @media only screen and (max-width: 480px) {
 
