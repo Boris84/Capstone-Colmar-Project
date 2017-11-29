@@ -426,15 +426,15 @@ footer .terms {
 
 /* MEDIA QUERIES */
 
-
-/* HEADER DESKTOP MQ */
+  /* HEADER DESKTOP MQ */
+/* header (tablet size) 880px min mq */
 @media only screen and (min-width: 880px) {
 
 nav.mobile-nav-container {
 	display: none;
  }
 }
-/* header desktop 880px mq */
+/* header (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 nav.desktop {
@@ -465,14 +465,15 @@ nav.mobile-nav-container a:first-child img {
 
   
   
-/* TOP-BANNER DESKTOP MQ */
+  /* TOP-BANNER DESKTOP MQ */
+/* top-banner desktop 1234px mq */
 @media only screen and (max-width: 1234px) {
 
 .top-banner section {
 	margin-top: 65px;
  }
 }
-/* top-banner desktop 1099px mq */
+/* top-banner (tablet size) 1099px mq */
 @media only screen and (max-width: 1099px) {
 
 .top-banner section {
@@ -489,14 +490,14 @@ nav.mobile-nav-container a:first-child img {
 	letter-spacing: 1.8px
  }
 }
-/* top-banner desktop 1080px mq */
+/* top-banner (tablet size) 1080px mq */
 @media only screen and (max-width: 1080px) {
 
 .top-banner section {
 	margin-top: 20px;
  }
 }
-/* top-banner desktop 866px mq */
+/* top-banner (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 .top-banner {
@@ -535,7 +536,7 @@ nav.mobile-nav-container a:first-child img {
     font-size: 1.3rem;
  }
 }
-       /* MOBILE */
+  /*TOP-BANNER MOBILE MQ  */
 /* top-banner mobile 480px mq */
 @media only screen and (max-width: 480px) {
 	
@@ -574,38 +575,38 @@ nav.mobile-nav-container a:first-child img {
 
 
 
-/* MAIN-CONTENT DESKTOP MQ */
+  /* MAIN-CONTENT DESKTOP MQ */
+/* main-content desktop 1220px mq */
 @media only screen and (max-width: 1220px) {
 
 .main-content .info-images div:last-child section {
-    
     margin-top: 15px;
  }
 }
-
+/* main-content desktop 1186px mq */
 @media only screen and (max-width: 1186px) {
 
 .main-content .info-images div:first-child section {
-     margin-top: 25px;
+    margin-top: 25px;
  }
 }
-
+/* main-content (tablet size) 930px mq */
 @media only screen and (max-width: 930px) {
 
 .main-content .info-images div:nth-child(even) section {
-     margin-top: 25px;
+    margin-top: 25px;
  }
 }
 
 
-/* main-content desktop 959px mq */
+/* main-content (tablet-size) 959px mq */
 @media only screen and (max-width: 959px) {
 
 .main-content .info-images div:last-child section {
     margin-top: 0px;
  }
 }
-/* main-content desktop 866px mq */
+/* main-content (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 .main-content .top-section  {
@@ -676,7 +677,7 @@ nav.mobile-nav-container a:first-child img {
     line-height: 0;
  }
 }
-/* main-content desktop 825px mq */
+/* main-content (tablet size) 825px mq */
 @media only screen and (max-width: 825px) {
 
 .main-content .info-images span {
@@ -749,7 +750,7 @@ nav.mobile-nav-container a:first-child img {
 	margin-bottom: 18px;
  }
 }
-
+/* main-content mobile 380px mq */
 @media only screen and (max-width: 380px) {
 
 .main-content .mobile-images h3 {
@@ -766,7 +767,7 @@ nav.mobile-nav-container a:first-child img {
 
 
   /* MAIN-SECTION CAREERS DESKTOP */
-/* main-section desktop 866px mq */
+/* main-section desktop 880px mq */
 @media only screen and (max-width: 880px) {
 
 .Careers {
@@ -783,14 +784,14 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes {
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	flex-wrap: nowrap;
 	margin: auto;
 	width: 100%;
 }
 
 .Careers .Boxes div {
-	width: 98%;
+	width: 95%;
 	border-radius: 0px;
 	text-align: center;
 	margin: 0px 16px 8px 16px;
@@ -837,7 +838,7 @@ nav.mobile-nav-container a:first-child img {
 	 font-weight: bold;
  }
 }
-  
+/* Careers mobile 380px mq */ 
 @media only screen and (max-width: 380px) {
 
 .Careers h2 {
@@ -852,35 +853,36 @@ nav.mobile-nav-container a:first-child img {
 
 
 
-
-
-
-   /* THESIS-EXIBIT DESKTOP MQ */
+  /* THESIS-EXIBIT DESKTOP MQ */
+/* thesis content desktop 1362 mq */
 @media only screen and (max-width: 1362px) {
 
 .Thesis-content .images div:first-child section {
 	 margin-top: -10px;
  }
 }
+/* thesis-content desktop 1103 mq */
 @media only screen and (max-width: 1103px) {
 
 .Thesis-content .images div:first-child section {
      margin-top: -25px;
  }	
 }
-
+/* thesis-content (tablet size) 1053 mq */
 @media only screen and (max-width: 1053px) {
 
 .Thesis-content .images div:first-child section {
 	 margin-top: -22px;
  }
 }
+/* thesis-content (tablet size) 1009px */
 @media only screen and (max-width: 1009px) {
 
 .Thesis-content .images div:first-child section {
      margin-top: -30px;
  }
 }
+/* thesis-content (tablet size) 890px mq */
 @media only screen and (max-width: 890px) {
 
 .Thesis-content .images div:last-child section {
@@ -918,6 +920,7 @@ nav.mobile-nav-container a:first-child img {
  }
 }
   /* THESIS-EXHIBIT MOBILE MQ */
+/* thesis-exhibit mobile 480px */
 @media only screen and (max-width: 480px) {
 
 .title h2 {
@@ -927,9 +930,8 @@ nav.mobile-nav-container a:first-child img {
 
 
 
-
-
-/* FOOTER MOBILE MQ */
+  /* FOOTER MOBILE MQ */
+/* footer mobile mq 480px */
 @media only screen and (max-width: 480px) {
 
 footer {
