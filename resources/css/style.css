@@ -477,14 +477,14 @@ nav.mobile-nav-container a:first-child img {
 
 .top-banner section {
 	margin-top: 20px;
- }
+}
 
 .top-banner h3 {
 	font-size: 1.3rem;
 	letter-spacing: 1.3px;
- }
+}
 
-.button {
+.top-banner .button {
 	font-size: 1.4rem;
 	letter-spacing: 1.8px
  }
@@ -529,28 +529,10 @@ nav.mobile-nav-container a:first-child img {
 	left: 25%;
 	margin-right: 0px;
 	width: 50%;
- }
+}
 
 .top-banner .button a {
     font-size: 1.3rem;
- }
-}
-/* top-banner desktop 620px mq */
-@media only screen and (max-width: 620px) {
-
-.top-banner h1 {
-    font-size: 3.1rem;
- }
-
-.top-banner h3 {
-    font-size: 1.1rem;
- }
-
-.top-banner .button {
-    padding: 9px 0px;
-}
-.top-banner .button a {
-    font-size: 1.2rem;
  }
 }
        /* MOBILE */
@@ -558,19 +540,19 @@ nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 480px) {
 	
 .top-banner h1 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
 }
 
 .top-banner h3 {
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 .top-banner .button  {
-	padding: 7px 0px;
+	padding: 8px 0px;
  }
 
 .top-banner .button a {
- 	font-size: 1rem;
+ 	font-size: 1.1rem;
  }
 }
 /* top-banner mobile 380px mq */
@@ -580,23 +562,11 @@ nav.mobile-nav-container a:first-child img {
 	font-size: 1rem;
 }
 
-.button  {
-	font-size: 1rem;
+.top-banner .button  {
 	padding: 7px 0px 7px 0px;
- }
-}
-/* top-banner mobile 310px mq */
-@media only screen and (max-width: 310px) {
-
-.top-banner h1 {
-	font-size: 1.5rem;
- }
-
-.top-banner h3 {
-	font-size: 0.9rem;
 }
 
-.button {
+.top-banner .button a {
 	font-size: 0.9rem;
  }
 }
@@ -613,19 +583,17 @@ nav.mobile-nav-container a:first-child img {
  }
 }
 
-@media only screen and (max-width: 1149px) {
+@media only screen and (max-width: 1186px) {
 
 .main-content .info-images div:first-child section {
-     
-    margin-top: 30px;
+     margin-top: 25px;
  }
 }
 
-@media only screen and (max-width: 903px) {
+@media only screen and (max-width: 930px) {
 
 .main-content .info-images div:nth-child(even) section {
-     
-    margin-top: 30px;
+     margin-top: 25px;
  }
 }
 
@@ -634,7 +602,7 @@ nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 959px) {
 
 .main-content .info-images div:last-child section {
-    margin-top: 10px;
+    margin-top: 0px;
  }
 }
 /* main-content desktop 866px mq */
@@ -695,12 +663,11 @@ nav.mobile-nav-container a:first-child img {
 	justify-content: space-evenly;
 	text-align: center;
 	padding-top: -16px;
-    font-size: 1rem;
     margin-bottom: 38px;
 }
 
 .main-content .info-images h3 {
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 1.6rem;
  }
 
@@ -712,20 +679,8 @@ nav.mobile-nav-container a:first-child img {
 /* main-content desktop 825px mq */
 @media only screen and (max-width: 825px) {
 
-.main-content .top-section p {
-	font-size: 0.9rem;
-}
-
-.main-content .top-section div {
-	font-size: 0.6rem;
-}
-
-.main-content .info-images section {
-	font-size: 0.9rem;
-}
-
-.main-content .info-images h3 {
-    font-size: 1.5rem;
+.main-content .info-images span {
+	font-size: 1rem;
 }
 
 .main-content .info-images div:last-child section {
@@ -745,11 +700,11 @@ nav.mobile-nav-container a:first-child img {
 } 
 
 .main-content .mobile-images div {
-    margin: 28px 16px;
+    margin: 16px 16px;
 }
 
 .main-content .mobile-images img {
-	width: 100%;
+	width: 98%;
 	height: auto;
     border: solid 4px #d3d3d3;
  }
@@ -762,20 +717,52 @@ nav.mobile-nav-container a:first-child img {
 .main-content .mobile-images h3 {
     font-family: "Josefin Sans";
     text-shadow: 2px 2px #ffff33;
-    margin-bottom: 8px;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 1.5rem;
  }
 
 .main-content .mobile-images span{
 	margin-bottom: 18px;
-	line-height: 1.6;
-}
+	letter-spacing: 0.8px;
+	font-size: 1rem;
+ }	
+
 .main-content .mobile-images a {
+	color: black;
 	line-height: 2;
-}
+	font-size: 1.1rem;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: "Kranky", Caveat Brush;
 }
 
+.main-content .mobile-images a:hover {
+    color: #ffff33;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    transition: color 250ms ease-in-out, text-shadow 350ms ease-in-out;  
+ }
+
+.main-content .mobile-images div:last-child section {
+	margin-bottom: 18px;
+ }
+}
+
+@media only screen and (max-width: 380px) {
+
+.main-content .mobile-images h3 {
+	font-size: 1.4rem;
+}
+
+.main-content .mobile-images span {
+	font-size: 0.9rem;
+}
+.main-content .mobile-images a {
+	font-size: 0.9rem;
+ }
+}
 
 
   /* MAIN-SECTION CAREERS DESKTOP */
@@ -796,16 +783,17 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes {
 	flex-direction: column;
+	justify-content: center;
 	flex-wrap: nowrap;
 	margin: auto;
 	width: 100%;
 }
 
 .Careers .Boxes div {
-	width: 100%;
+	width: 98%;
 	border-radius: 0px;
 	text-align: center;
-	margin: 0px 0px 8px 0px;
+	margin: 0px 16px 8px 16px;
 	border: solid 4px #d3d3d3;
 	background-color: #fafad2;
 	box-shadow: none;
@@ -821,7 +809,7 @@ nav.mobile-nav-container a:first-child img {
 	margin-left: 0px;
 	width: 100%;
 	font-size: 1.6rem;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .Careers .Boxes img {
@@ -836,41 +824,30 @@ nav.mobile-nav-container a:first-child img {
 	display: none;
  }
 }
-/* main-section careers desktop 825px mq */
-@media only screen and (max-width: 825px) {
-
-.Careers .Boxes h3 {
-	font-size: 1.5rem;
-}
-
-.Careers .Boxes h4  {
-    font-size: 1rem;
- }
-
-.Boxes p.boxes-text {
-	font-size: 0.9rem;
- }
-}
-/* main-section careers desktop 725px */
-@media only screen and (max-width: 725px) {
-
-
-}
   /* CAREERS MOBILE MQ */
 /* Careers mobile 480px mq */
 @media only screen and (max-width: 480px) {
 
 .Careers h2 {
-     
- 
+     font-size: 2.5rem;
 }
 
 .Careers .Boxes h3 {
-	
-}
+	 font-size: 1.5rem;
+	 font-weight: bold;
+ }
 }
   
-  
+@media only screen and (max-width: 380px) {
+
+.Careers h2 {
+     font-size: 2.3rem;
+ }
+
+.Careers .Boxes h3 {
+     font-size: 1.3rem;
+ }
+}
    
 
 
@@ -878,32 +855,40 @@ nav.mobile-nav-container a:first-child img {
 
 
 
-   /* THESIS-EXIBIT DESKTOP */
-@media only screen and (max-width: 1350px) {
-.Thesis-content .images div:first-child section {
-	 margin-top: -15px;
- }
-}
-@media only screen and (max-width: 1300px) {
+   /* THESIS-EXIBIT DESKTOP MQ */
+@media only screen and (max-width: 1362px) {
 
 .Thesis-content .images div:first-child section {
-     margin-top: -10px;  
+	 margin-top: -10px;
  }
 }
+@media only screen and (max-width: 1103px) {
+
+.Thesis-content .images div:first-child section {
+     margin-top: -25px;
+ }	
+}
+
 @media only screen and (max-width: 1053px) {
 
 .Thesis-content .images div:first-child section {
 	 margin-top: -22px;
  }
 }
+@media only screen and (max-width: 1009px) {
 
+.Thesis-content .images div:first-child section {
+     margin-top: -30px;
+ }
+}
 @media only screen and (max-width: 890px) {
+
 .Thesis-content .images div:last-child section {
      margin-top: 3px;
  }	
 }
 
-/* thesis-exibit desktop 866px mq */
+/* thesis-exibit desktop 880px mq */
 @media only screen and (max-width: 880px) {
 
 .title h2 {
@@ -931,70 +916,25 @@ nav.mobile-nav-container a:first-child img {
 .Thesis-content .top-section video {
     width: 100%;
  }
-
 }
+  /* THESIS-EXHIBIT MOBILE MQ */
+@media only screen and (max-width: 480px) {
 
-@media only screen and (max-width: 825px) {
-
-.Thesis-content .top-section p  {
-	font-size: 0.9rem;
-}
-
-.Thesis-content .images h3 {
-	font-size: 1.4rem;
- }	
-
-.Thesis-content .images section {
-	font-size: 0.9rem;
-}
-
-.Thesis-content .images div:first-child section {
-    margin-top: -3px;
- }
-}
-
-@media only screen and (max-width: 764px) {
-.Thesis-content .images div:last-child section {
-	margin-top: ;
-}
-/* theis-exibit desktop 725px mq */
-@media only screen and (max-width: 725px) {
-
-
-}
- 
-
-
-
-  /* FOOTER DESKTOP MQ */
-/* footer desktop 825px mq */
-@media only screen and (max-width: 866px) {
-
-footer .copy {
-	font-size: 0.6rem;
-}
-footer .terms {
-	font-size: 0.6rem;
- }
-}
-
-@media only screen and (max-width: 725px) {
-	
-footer .copy {
-	 font-size: 0.8rem;
- }
-
-footer .terms {
-     font-size: 0.8rem;
+.title h2 {
+	font-size: 2.5rem;
  }
 }
 
 
-/* footer mobile 480px */
+
+
+
+/* FOOTER MOBILE MQ */
 @media only screen and (max-width: 480px) {
 
 footer {
 	justify-content: center;
+	margin-left: 0;
 }
 
 footer .terms {
