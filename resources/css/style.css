@@ -15,8 +15,6 @@ header {
     font-size: 1.8rem;
     font-weight: bold;
     font-family: "Josefin Sans", serif;
-    background-size: cover;
-    background-position: center;
     justify-content: space-between;
 }
 header div {
@@ -36,23 +34,22 @@ nav {
 	margin-right: 9px;
 }
 nav a {
-	top: 19px;
-    height: 22.5px;
-    line-height: 0.9;
+	top: 16px;
+    height: 25.5px;
+    line-height: 1.2;
     position: relative;
-	font-family: "Caveat Brush";
+	font-family: "Caveat Brush", serif;
 	text-decoration: none;
 	text-shadow: 2px 2px #ffffff;
     background-color: #fafad2;
     border: solid 2px black;
     border-radius: 20px;
 	letter-spacing: 1px;
-    margin: 0px 16px 0px 16px;
-    padding: 1.5px 5px;
-    font-size: 1.4rem;
+    margin: 0px 16px;
+    padding: 2px 8px;
+    font-size: 1.3rem;
     font-weight: normal;
     color: black;
-    bottom: 7px;
 }
 nav a:hover {
 	background-color: #ffff33;
@@ -65,7 +62,6 @@ nav a:hover {
 /*top-banner section*/ 
 .top-banner {
 	display: flex;
-    border-top: solid 1px #d3d3d3;
     background-color: #FAFAD2;
     height: 100%;
 }
@@ -77,8 +73,7 @@ nav a:hover {
 	border-radius: 20px;
 }
 .top-banner section  {
-    margin-top: 70px;
-    margin-left: 0px;
+    margin: 70px 24px 0px 0px;
 }
 .top-banner h1 {
     font-family: "Kranky";
@@ -99,26 +94,25 @@ nav a:hover {
 	font-size: 1.3rem;
 	width: 100%;
 }
-.button {
+.top-banner .button {
 	display: flex;
 	justify-content: center;
-	padding: 12px 0px 12px 0px;
+	padding: 14px 0px;
 	line-height: 0.8;
 	font-family: "Caveat Brush";
 	font-weight: normal;
-	color: black;
 	border: solid 3px black;
     letter-spacing: 2px;
-	border-radius: 20px;
+	border-radius: 30px;
     background-color: #ffffff;
     font-size: 1.5rem;
 }
-.button:hover {
+.top-banner .button:hover {
 	background-color: #ffff33;
 	box-shadow: 10px 10px 10px black;
 	transition: box-shadow 350ms ease-out, background-color 350ms ease-out;
 }
-.button a {
+.top-banner .button a {
 	text-decoration: none;
 	font-weight: bold;
 	color: black;
@@ -129,7 +123,6 @@ nav a:hover {
   /* top-section */
 .main-content {
 	display: flex;	
-	border-top: solid 1px #d3d3d3;
 }
 .main-content .top-section {
 	margin-left: 24px;
@@ -146,7 +139,6 @@ nav a:hover {
 	font-family: "Kranky"; 
 	letter-spacing: 2px;
 	font-size: 2.9rem;
-	color: black;
 	text-shadow: 3px 3px #ffff33;
 	font-weight: normal;
 	width: 100%;
@@ -183,13 +175,15 @@ nav a:hover {
 	height: auto;
 	display: flex;
 	border-bottom: solid 1px #d3d3d3;
-	border-left: solid 1px #d3d3d3;
 }
 .main-content .info-images div:first-child {
 	border-top: none;
 }
 .main-content .info-images div:nth-child(even) {
     padding-top: 16px;
+}
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 35px;
 }
 .main-content .info-images div:last-child {
     padding-top: 16px;
@@ -201,7 +195,7 @@ nav a:hover {
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	margin: 0px 16px 21px 16px;
+	margin: 0px 21px 21px 16px;
 	box-shadow: 4px 5px black;
 }
 .main-content .info-images h3 {
@@ -210,12 +204,12 @@ nav a:hover {
 	letter-spacing: 0.8px;
 	font-weight: normal;
 	text-shadow: 2px 2px #ffff33;
-	margin: 0px 0px 8px 0px;
+	margin: 0px 0px 8px -2px;
 	font-family: "Josefin Sans";
 }
 .main-content .info-images section {
-	width: 65%;
-	margin-top: 40px;
+	width: 40%;
+	margin-top: 25px;
 	flex-direction: column;
 	font-family: "kreon", serif;
 	font-size: 1.1rem;
@@ -225,6 +219,9 @@ nav a:hover {
 }	
 .main-content .info-images div:last-child span {
     line-height: 1.4;
+}
+.main-content .info-images div:last-child section {
+	margin-top: 10px;
 }
 .main-content .info-images a {
 	color: black;
@@ -276,6 +273,7 @@ nav a:hover {
     font-family: "Kreon", serif;
     box-shadow: 5px 6px black;
     border-radius: 24px;
+    height: auto;
     width: 26%;
 }
 .Careers .Boxes img {
@@ -424,6 +422,7 @@ footer .terms {
 
 
 
+
 /* MEDIA QUERIES */
 
   /* HEADER DESKTOP MQ */
@@ -467,18 +466,14 @@ nav.mobile-nav-container a:first-child img {
   
   /* TOP-BANNER DESKTOP MQ */
 /* top-banner desktop 1234px mq */
-@media only screen and (max-width: 1234px) {
+@media only screen and (max-width: 1290px) {
 
 .top-banner section {
-	margin-top: 65px;
+	margin-top: 3px;
  }
 }
 /* top-banner (tablet size) 1099px mq */
 @media only screen and (max-width: 1099px) {
-
-.top-banner section {
-	margin-top: 20px;
-}
 
 .top-banner h3 {
 	font-size: 1.3rem;
@@ -488,13 +483,6 @@ nav.mobile-nav-container a:first-child img {
 .top-banner .button {
 	font-size: 1.4rem;
 	letter-spacing: 1.8px
- }
-}
-/* top-banner (tablet size) 1080px mq */
-@media only screen and (max-width: 1080px) {
-
-.top-banner section {
-	margin-top: 20px;
  }
 }
 /* top-banner (tablet size) 880px mq */
@@ -526,10 +514,11 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .top-banner .button {
-	position: relative;
 	left: 25%;
-	margin-right: 0px;
 	width: 50%;
+	position: relative;
+	margin-right: 0px;
+	padding: 13px 0px;
 }
 
 .top-banner .button a {
@@ -568,7 +557,7 @@ nav.mobile-nav-container a:first-child img {
 }
 
 .top-banner .button a {
-	font-size: 0.9rem;
+	font-size: 1rem;
  }
 }
 
@@ -577,10 +566,10 @@ nav.mobile-nav-container a:first-child img {
 
   /* MAIN-CONTENT DESKTOP MQ */
 /* main-content desktop 1220px mq */
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1278px) {
 
 .main-content .info-images div:last-child section {
-    margin-top: 15px;
+    margin-top: -5px;
  }
 }
 /* main-content desktop 1186px mq */
@@ -590,22 +579,30 @@ nav.mobile-nav-container a:first-child img {
     margin-top: 25px;
  }
 }
-/* main-content (tablet size) 930px mq */
-@media only screen and (max-width: 930px) {
+
+@media only screen and (max-width: 1215px) { 
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 12px;
+}
+}
+
+@media only screen and (max-width: 1018px) {
 
 .main-content .info-images div:nth-child(even) section {
-    margin-top: 25px;
+    margin-top: 15px;
  }
 }
-
-
-/* main-content (tablet-size) 959px mq */
-@media only screen and (max-width: 959px) {
-
+@media only screen and (max-width: 1007px) { 
 .main-content .info-images div:last-child section {
-    margin-top: 0px;
- }
+    margin-top: -17px;	
+	}
+@media only screen and (max-width: 947px) {
+
+.main-content .info-images div:first-child section {
+    margin-top: 13px;	
 }
+
+
 /* main-content (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
@@ -720,7 +717,7 @@ nav.mobile-nav-container a:first-child img {
     text-shadow: 2px 2px #ffff33;
     letter-spacing: 0.8px;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.5rem;
  }
 
@@ -792,10 +789,10 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes div {
 	width: 95%;
-	border-radius: 0px;
+	border-radius: 15px;
 	text-align: center;
 	margin: 0px 16px 8px 16px;
-	border: solid 4px #d3d3d3;
+	border: solid 1px #d3d3d3;
 	background-color: #fafad2;
 	box-shadow: none;
 }
@@ -835,7 +832,7 @@ nav.mobile-nav-container a:first-child img {
 
 .Careers .Boxes h3 {
 	 font-size: 1.5rem;
-	 font-weight: bold;
+	 font-weight: normal;
  }
 }
 /* Careers mobile 380px mq */ 
