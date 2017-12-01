@@ -247,8 +247,6 @@ nav a:hover {
 	width: 100%;
     background-color: #fafad2;
     margin-bottom: 32px;
-    border-top: solid 1px #d3d3d3;
-    border-bottom: solid 1px #d3d3d3;
 }
 .Careers h2 {
 	position: relative;
@@ -503,9 +501,8 @@ header nav.mobile-nav-container a:first-child img {
 .top-banner h1 {
 	font-size: 3.4rem;
 }
-.top-banner .button {
-	padding: 13px 0px;
-	font-size: 1.3rem;
+.top-banner .button a {
+	font-size: 1.4rem;
  }
 }
 /* top-banner (tablet size) 1099px mq */
@@ -516,9 +513,8 @@ header nav.mobile-nav-container a:first-child img {
 	letter-spacing: 1.3px;
 }
 
-.top-banner .button {
+.top-banner .button a {
 	font-size: 1.4rem;
-	letter-spacing: 1.8px
  }
 }
 /* top-banner (tablet size) 1007px mq */
@@ -526,6 +522,13 @@ header nav.mobile-nav-container a:first-child img {
 
 .top-banner h3 {
     font-size: 1.1rem;
+ }
+
+.top-banner .button {
+	padding: 13px 0px;
+}
+.top-banner .button a {
+	font-size: 1.3rem;
  }
 }
 
