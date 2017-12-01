@@ -518,7 +518,7 @@ header nav.mobile-nav-container a:first-child img {
  }
 }
 /* top-banner (tablet size) 1007px mq */
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1005px) {
 
 .top-banner h3 {
     font-size: 1.1rem;
@@ -645,7 +645,7 @@ header nav.mobile-nav-container a:first-child img {
  }
 }
 /* main-content info-images (tablet size) 1007px mq */
-@media only screen and (max-width: 1007px) { 
+@media only screen and (max-width: 1005px) { 
 
 .main-content .top-section p {
 	font-size: 0.9rem;
@@ -846,7 +846,7 @@ header nav.mobile-nav-container a:first-child img {
  }
 }
 /* main-section Careers (tablet size) 1007px mq */
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1005px) {
 
 .Careers .Boxes h3 {
 	font-size: 1.6rem;
@@ -969,7 +969,7 @@ header nav.mobile-nav-container a:first-child img {
  }
 }
 /* Thesis-content (tablet size) 1007px mq */
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1005px) {
 
 .Thesis-content .top-section h3 {
 	font-size: 1..6rem;
@@ -1033,7 +1033,7 @@ header nav.mobile-nav-container a:first-child img {
 
   /* FOOTER TABLET SIZE MQ */
 /* footer (tablet size) 1007px mq */
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1005px) {
 
 footer div {
     font-size: 0.6rem;
