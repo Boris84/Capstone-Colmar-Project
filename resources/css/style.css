@@ -388,7 +388,7 @@ nav a:hover {
     border-bottom: none;
 }
 .Thesis-content .images div:first-child section {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .Thesis-content .images div:last-child section {
     margin-top: 25px;
@@ -569,41 +569,62 @@ nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 1278px) {
 
 .main-content .info-images div:last-child section {
-    margin-top: -5px;
+    margin-top: 2px;
  }
 }
 /* main-content desktop 1186px mq */
-@media only screen and (max-width: 1186px) {
+@media only screen and (max-width: 1219px) {
+
+.main-content .info-images h3 {
+	font-size: 1.7rem;
+ }
 
 .main-content .info-images div:first-child section {
-    margin-top: 25px;
+    margin-top: 30px;
  }
 }
-
+/* main-content info-images desktop 1215px mq */
 @media only screen and (max-width: 1215px) { 
-.main-content .info-images div:nth-child(even) section {
-	margin-top: 12px;
-}
-}
 
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 30px;
+ }
+}
+/* main-content info-images (tablet size) 1018px mq */
 @media only screen and (max-width: 1018px) {
 
 .main-content .info-images div:nth-child(even) section {
-    margin-top: 15px;
+    margin-top: 18px;
  }
 }
+/* main-content info-images (tablet size) 1007px mq */
 @media only screen and (max-width: 1007px) { 
-.main-content .info-images div:last-child section {
-    margin-top: -17px;	
-	}
-@media only screen and (max-width: 947px) {
 
-.main-content .info-images div:first-child section {
-    margin-top: 13px;	
+.main-content .top-section p {
+	font-size: 0.9rem;
 }
 
+.main-content .top-section div {
+	font-size: 0.6rem;
+}
 
-/* main-content (tablet size) 880px mq */
+.main-content .info-images section {
+	font-size: 0.9rem;
+}
+
+.main-content .info-images h3 {
+	font-size: 1.6rem;
+ }
+
+.main-content .info-images div:nth-child(even) section {
+	margin-top: 35px;
+}
+
+.main-content .info-images div:last-child section {
+    margin-top: 15px;	
+ }
+}
+/* main-content info-images (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 .main-content .top-section  {
@@ -674,7 +695,7 @@ nav.mobile-nav-container a:first-child img {
     line-height: 0;
  }
 }
-/* main-content (tablet size) 825px mq */
+/* main-content info-images (tablet size) 825px mq */
 @media only screen and (max-width: 825px) {
 
 .main-content .info-images span {
@@ -757,14 +778,40 @@ nav.mobile-nav-container a:first-child img {
 .main-content .mobile-images span {
 	font-size: 0.9rem;
 }
+
 .main-content .mobile-images a {
 	font-size: 0.9rem;
  }
 }
 
 
-  /* MAIN-SECTION CAREERS DESKTOP */
-/* main-section desktop 880px mq */
+ 
+  /* MAIN-SECTION CAREERS DESKTOP MQ */
+/* main-section Careers desktop 1219px mq */
+@media only screen and (max-width: 1219px) {
+
+.Careers .Boxes h3 {
+    font-size: 1.7rem;
+}
+.Careers .Boxes h4 {
+    font-size: 1.1rem;
+ }
+}
+/* main-section Careers (tablet size) 1007px mq */
+@media only screen and (max-width: 1007px) {
+
+.Careers .Boxes h3 {
+	font-size: 1.6rem;
+}
+
+.Careers .Boxes h4 {
+	font-size: 1rem;
+}
+.Boxes p.boxes-text {
+    font-size: 0.9rem;
+ }
+}
+/* main-section Careers (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 .Careers {
@@ -850,44 +897,53 @@ nav.mobile-nav-container a:first-child img {
 
 
 
-  /* THESIS-EXIBIT DESKTOP MQ */
+  /* THESIS-CONTENT DESKTOP MQ */
 /* thesis content desktop 1362 mq */
 @media only screen and (max-width: 1362px) {
 
 .Thesis-content .images div:first-child section {
-	 margin-top: -10px;
+	 margin-top: -8px;
  }
 }
-/* thesis-content desktop 1103 mq */
-@media only screen and (max-width: 1103px) {
+/* thesis-content desktop 1219px mq */
+@media only screen and (max-width: 1219px) { 
 
-.Thesis-content .images div:first-child section {
-     margin-top: -25px;
- }	
+.Thesis-content .top-section h3 {
+	font-size: 1.7rem;
+}
+
+.Thesis-content .images h3 {
+	font-size: 1.7rem;
+ }
+
+.Thesis-content .images div:first-child section { 
+	margin-top: 3px;
+ }
+}
+/* Thesis-content (tablet size) 1007px mq */
+@media only screen and (max-width: 1007px) {
+
+.Thesis-content .top-section h3 {
+	font-size: 1..6rem;
+}
+.Thesis-content .top-section p {
+	font-size: 0.9rem;
+}
+.Thesis-content .images h3 {
+	font-size: 1.6rem;
+}
+.Thesis-content .images section {
+	font-size: 0.9rem;
+ }
 }
 /* thesis-content (tablet size) 1053 mq */
 @media only screen and (max-width: 1053px) {
 
 .Thesis-content .images div:first-child section {
-	 margin-top: -22px;
+	 margin-top: -5px;
  }
 }
-/* thesis-content (tablet size) 1009px */
-@media only screen and (max-width: 1009px) {
-
-.Thesis-content .images div:first-child section {
-     margin-top: -30px;
- }
-}
-/* thesis-content (tablet size) 890px mq */
-@media only screen and (max-width: 890px) {
-
-.Thesis-content .images div:last-child section {
-     margin-top: 3px;
- }	
-}
-
-/* thesis-exibit desktop 880px mq */
+/* thesis-content (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
 .title h2 {
@@ -916,8 +972,8 @@ nav.mobile-nav-container a:first-child img {
     width: 100%;
  }
 }
-  /* THESIS-EXHIBIT MOBILE MQ */
-/* thesis-exhibit mobile 480px */
+  /* THESIS-CONTENT MOBILE MQ */
+/* thesis-content mobile 480px */
 @media only screen and (max-width: 480px) {
 
 .title h2 {
@@ -926,6 +982,15 @@ nav.mobile-nav-container a:first-child img {
 }
 
 
+
+  /* FOOTER TABLET SIZE MQ */
+/* footer (tablet size) 1007px mq */
+@media only screen and (max-width: 1007px) {
+
+footer div {
+    font-size: 0.6rem;
+ }
+}
 
   /* FOOTER MOBILE MQ */
 /* footer mobile mq 480px */
