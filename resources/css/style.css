@@ -130,7 +130,7 @@ nav a:hover {
 }
 .main-content .top-section img {
 	width: 100%;
-    margin: 32px 0px 16px 0px; 
+    margin: 32px 0px 17px 0px; 
     border: solid 4px #d3d3d3;
     border-radius: 20px;
 }
@@ -150,7 +150,7 @@ nav a:hover {
 	line-height: 1.4;
 	letter-spacing: 0.8px;
 	word-spacing: 2px; 
-	margin: -9px 0px 30px 0px;
+	margin: -24px 0px 44px 0px;
 	font-weight: normal;
 }
 .main-content .top-section div {
@@ -174,7 +174,6 @@ nav a:hover {
 	width: 100%;
 	height: auto;
 	display: flex;
-	border-bottom: solid 1px #d3d3d3;
 }
 .main-content .info-images div:first-child {
 	border-top: none;
@@ -195,7 +194,7 @@ nav a:hover {
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	margin: 0px 21px 21px 16px;
+	margin: 0px 5px 22px 16px;
 	box-shadow: 4px 5px black;
 }
 .main-content .info-images h3 {
@@ -205,11 +204,12 @@ nav a:hover {
 	font-weight: normal;
 	text-shadow: 2px 2px #ffff33;
 	margin: 0px 0px 8px -2px;
-	font-family: "Josefin Sans";
+	font-family: "Josefin Sans", serif;
 }
 .main-content .info-images section {
 	width: 40%;
 	margin-top: 25px;
+	margin-left: 16px;
 	flex-direction: column;
 	font-family: "kreon", serif;
 	font-size: 1.1rem;
@@ -639,9 +639,17 @@ header nav.mobile-nav-container a:first-child img {
 /* main-content desktop 1186px mq */
 @media only screen and (max-width: 1219px) {
 
+.main-content .top-section p {
+	font-size: 1rem;
+}
+
 .main-content .info-images h3 {
 	font-size: 1.7rem;
- }
+}
+
+.main-content .info-images section {
+    font-size: 1rem;
+}
 
 .main-content .info-images div:first-child section {
     margin-top: 30px;
@@ -860,6 +868,9 @@ header nav.mobile-nav-container a:first-child img {
 }
 .Careers .Boxes h4 {
     font-size: 1.1rem;
+}
+.Boxes p.boxes-text {
+	font-size: 1rem;
  }
 }
 /* main-section Careers (tablet size) 1007px mq */
@@ -977,10 +988,18 @@ header nav.mobile-nav-container a:first-child img {
 	font-size: 1.7rem;
 }
 
+.Thesis-content .top-section p {
+	font-size: 1rem;
+}
+
 .Thesis-content .images h3 {
 	font-size: 1.7rem;
- }
+}
 
+.Thesis-content .images section {
+	font-size: 1rem;
+ }
+}
 .Thesis-content .images div:first-child section { 
 	margin-top: 3px;
  }
@@ -989,16 +1008,16 @@ header nav.mobile-nav-container a:first-child img {
 @media only screen and (max-width: 1007px) {
 
 .Thesis-content .top-section h3 {
-	font-size: 1..6rem;
+	font-size: 1.6rem;
 }
 .Thesis-content .top-section p {
-	font-size: 0.9rem;
+	font-size: 0.2rem;
 }
 .Thesis-content .images h3 {
 	font-size: 1.6rem;
 }
 .Thesis-content .images section {
-	font-size: 0.9rem;
+	font-size: 0.2rem;
  }
 }
 /* thesis-content (tablet size) 1053 mq */
@@ -1049,6 +1068,13 @@ header nav.mobile-nav-container a:first-child img {
 
 
   /* FOOTER TABLET SIZE MQ */
+/* footer desktop 1219px mq */
+@media only screen and (max-width: 1219px) {
+
+footer div {
+	font-size: 0.7rem;
+ }
+}
 /* footer (tablet size) 1007px mq */
 @media only screen and (max-width: 1007px) {
 
