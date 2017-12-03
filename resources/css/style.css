@@ -21,6 +21,9 @@ header div {
 	line-height: 2.4;
     margin-left: 17px;
 }
+header div span {
+	letter-spacing: 2px;
+}
 .logo {
 	height: 3.5rem;
 	margin-bottom: -17px;
@@ -44,7 +47,8 @@ nav a {
     background-color: #fafad2;
     border: solid 2px black;
     border-radius: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 0.8px;
+	word-spacing: 2px;
     margin: 0px 16px;
     padding: 2px 8px;
     font-size: 1.4rem;
@@ -157,7 +161,6 @@ nav a:hover {
 	font-family: "Kreon", serif;
 	letter-spacing: 0.5px;
 	font-size: 0.7rem;
-	font-weight: normal;
 	margin-bottom: 32px;
 	word-spacing: 0.9px;
 }
@@ -187,7 +190,6 @@ nav a:hover {
 .main-content .info-images div:last-child {
     padding-top: 16px;
     background-color: #fafad2;
-	border-bottom: none;
 }
 .main-content .info-images img {
 	width: 35%;
@@ -214,7 +216,7 @@ nav a:hover {
 	font-family: "kreon", serif;
 	font-size: 1.1rem;
 }
-.main-content .info-images span {
+.main-content .info-images section {
     letter-spacing: 0.8px;
 }	
 .main-content .info-images div:last-child span {
@@ -267,7 +269,7 @@ nav a:hover {
 .Careers .Boxes div {
     background-color: #ffffff;
     border: solid 4px #d3d3d3;
-    margin: 0px 17px 32px 17px;
+    margin: 0px 17px 40px 17px;
     font-family: "Kreon", serif;
     box-shadow: 5px 6px black;
     border-radius: 24px;
@@ -287,7 +289,7 @@ nav a:hover {
 	font-family: "Josefin Sans";
 	text-shadow: 2px 2px #ffff33;
     margin: 28px 0px 16px 16px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.8px;
 }
 .Careers .Boxes h4 {
 	font-size: 1.2rem;
@@ -298,6 +300,7 @@ nav a:hover {
 .Boxes p.boxes-text {
 	margin: 10px 0px 14px 16px;
 	letter-spacing: 0.8px;
+	word-spacing: 2px;
 	line-height: 1.6rem;
 	font-family: "Kreon", serif;
 	font-size: 1.1rem;
@@ -441,8 +444,8 @@ header div .logo {
 header nav a {
 	top: 17px;
 	height: 24px;
-	line-height: 1.1;
-	font-size: 1.3rem;
+	line-height: 1.2;
+	font-size: 1.2rem;
  }
 }
 /* header (tablet size) 880px min mq */
@@ -519,7 +522,7 @@ header nav.mobile-nav-container a:first-child img {
 	font-size: 3.4rem;
 }
 .top-banner .button a {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
  }
 }
 /* top-banner (tablet size) 1099px mq */
@@ -528,10 +531,6 @@ header nav.mobile-nav-container a:first-child img {
 .top-banner h3 {
 	font-size: 1.3rem;
 	letter-spacing: 1.3px;
-}
-
-.top-banner .button a {
-	font-size: 1.4rem;
  }
 }
 /* top-banner (tablet size) 1007px mq */
@@ -539,13 +538,6 @@ header nav.mobile-nav-container a:first-child img {
 
 .top-banner h3 {
     font-size: 1.1rem;
- }
-
-.top-banner .button {
-	padding: 13px 0px;
-}
-.top-banner .button a {
-	font-size: 1.3rem;
  }
 }
 
@@ -583,10 +575,6 @@ header nav.mobile-nav-container a:first-child img {
 	position: relative;
 	margin-right: 0px;
 	padding: 13px 0px;
-}
-
-.top-banner .button a {
-    font-size: 1.3rem;
  }
 }
   /*TOP-BANNER MOBILE MQ  */
@@ -653,6 +641,10 @@ header nav.mobile-nav-container a:first-child img {
 
 .main-content .info-images div:first-child section {
     margin-top: 30px;
+}
+
+.main-content .info-images div:last-child section {
+    margin-top: 7px;
  }
 }
 /* main-content info-images desktop 1215px mq */
