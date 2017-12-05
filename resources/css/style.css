@@ -48,7 +48,7 @@ nav a {
     border: solid 2px black;
     border-radius: 20px;
 	letter-spacing: 0.8px;
-	word-spacing: 2px;
+	word-spacing: 1px;
     margin: 0px 16px;
     padding: 2px 8px;
     font-size: 1.4rem;
@@ -227,10 +227,12 @@ nav a:hover {
 }
 .main-content .info-images a {
 	color: black;
-	font-family: "Kranky";
-	text-decoration: none;
 	line-height: 2.5;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
+	text-decoration: none;
+	font-family: "Caveat Brush";
+
 }
 .main-content .info-images a:hover {
     color: #ffff33;
@@ -294,7 +296,7 @@ nav a:hover {
 .Careers .Boxes h4 {
 	font-size: 1.2rem;
 	margin: 0px 0px 0px 16px;
-	letter-spacing: 0.7px;
+	letter-spacing: 0.6px;
 	font-weight: normal;
 }
 .Boxes p.boxes-text {
@@ -325,7 +327,7 @@ nav a:hover {
 .Thesis-content .top-section {
 	width: 60%;
 	height: auto;
-	margin: 0px 24px 32px 24px;
+	margin: 0px 32px 12px 24px;
 }
 .Thesis-content .top-section h3 {
 	font-family: "Josefin Sans";
@@ -365,7 +367,7 @@ nav a:hover {
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
 	box-shadow: 4px 5px black;
-	margin: 16px 16px 21px 16px;
+	margin: 16px 19px 21px 16px;
 }
 .Thesis-content .images section {
 	width: 40%;
@@ -639,6 +641,10 @@ header nav.mobile-nav-container a:first-child img {
     font-size: 1rem;
 }
 
+.main-content .info-images a {
+	font-size: 1.1rem;
+}
+
 .main-content .info-images div:first-child section {
     margin-top: 30px;
 }
@@ -679,6 +685,10 @@ header nav.mobile-nav-container a:first-child img {
 .main-content .info-images h3 {
 	font-size: 1.6rem;
  }
+
+.main-content .info-images a {
+	font-size: 1rem;
+}
 
 .main-content .info-images div:nth-child(even) section {
 	margin-top: 35px;
@@ -817,9 +827,9 @@ header nav.mobile-nav-container a:first-child img {
 	color: black;
 	line-height: 2;
 	font-size: 1.1rem;
-	text-decoration: none;
 	letter-spacing: 2px;
-	font-family: "Kranky", Caveat Brush;
+	text-decoration: none;
+	font-family: "Caveat Brush";
 }
 
 .main-content .mobile-images a:hover {
@@ -845,7 +855,7 @@ header nav.mobile-nav-container a:first-child img {
 }
 
 .main-content .mobile-images a {
-	font-size: 0.9rem;
+	font-size: 1rem;
  }
 }
 
