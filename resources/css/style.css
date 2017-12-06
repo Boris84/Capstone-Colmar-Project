@@ -57,8 +57,8 @@ nav a {
 }
 nav a:hover {
 	background-color: #ffff33;
-    box-shadow: 6px 6px 6px black;
-    transition: background-color 350ms ease-out, box-shadow 350ms ease-out;
+    box-shadow: 6px 6px 10px black;
+    transition: background-color 550ms ease-out, box-shadow 550ms ease-out;
 }
 
 
@@ -72,12 +72,13 @@ nav a:hover {
 .top-banner img {
 	height: 500px;
 	width: 57.5%;
-	margin: 32px 24px 32px 24px; 
+	margin: 32px 48px 32px 24px; 
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
 }
 .top-banner section  {
-    margin: 70px 24px 0px 0px;
+    margin-top: 70px;
+    margin-right: 48px;
 }
 .top-banner h1 {
     font-family: "Kranky";
@@ -101,7 +102,7 @@ nav a:hover {
 .top-banner .button {
 	display: flex;
 	justify-content: center;
-	padding: 14px 0px;
+	padding: 15px 0px;
 	line-height: 0.8;
 	font-family: "Caveat Brush";
 	font-weight: normal;
@@ -113,8 +114,8 @@ nav a:hover {
 }
 .top-banner .button:hover {
 	background-color: #ffff33;
-	box-shadow: 10px 10px 10px black;
-	transition: box-shadow 350ms ease-out, background-color 350ms ease-out;
+	box-shadow: 12px 12px 20px black;
+	transition: box-shadow 550ms ease-out, background-color 550ms ease-out;
 }
 .top-banner .button a {
 	text-decoration: none;
@@ -133,13 +134,14 @@ nav a:hover {
     width: 60%;
 }
 .main-content .top-section img {
-	width: 100%;
-    margin: 32px 0px 17px 0px; 
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 20px;
     border: solid 4px #d3d3d3;
     border-radius: 20px;
 }
 .main-content .top-section h2 {
-	margin-top: 0px;
+	margin-top: 0;
 	font-family: "Kranky"; 
 	letter-spacing: 2px;
 	font-size: 2.9rem;
@@ -154,14 +156,15 @@ nav a:hover {
 	line-height: 1.4;
 	letter-spacing: 0.8px;
 	word-spacing: 2px; 
-	margin: -24px 0px 44px 0px;
+	margin-top: -24px;
+	margin-bottom: 44px;
 	font-weight: normal;
 }
 .main-content .top-section div {
 	font-family: "Kreon", serif;
 	letter-spacing: 0.5px;
 	font-size: 0.7rem;
-	margin-bottom: 32px;
+	margin-bottom: 0px;
 	word-spacing: 0.9px;
 }
 
@@ -170,12 +173,14 @@ nav a:hover {
 .main-content .info-images {
     width: 40%;
     display: flex;
-    margin: 32px 0px 32px 32px;
+    margin-top: 32px; 
+    margin-left: 32px;
+    margin-bottom: 32px;
     flex-direction: column;
 }  
 .main-content .info-images div {
-	width: 100%;
 	height: auto;
+	width: 100%;
 	display: flex;
 }
 .main-content .info-images div:first-child {
@@ -196,8 +201,10 @@ nav a:hover {
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	margin: 0px 5px 22px 16px;
-	box-shadow: 4px 5px black;
+	margin-bottom: 22px;
+	margin-left: 16px;
+	box-shadow: 5px 5px 5px black;
+
 }
 .main-content .info-images h3 {
 	width: 100%;
@@ -211,7 +218,7 @@ nav a:hover {
 .main-content .info-images section {
 	width: 40%;
 	margin-top: 25px;
-	margin-left: 16px;
+	margin-left: 21px;
 	flex-direction: column;
 	font-family: "kreon", serif;
 	font-size: 1.1rem;
@@ -232,7 +239,6 @@ nav a:hover {
 	letter-spacing: 2px;
 	text-decoration: none;
 	font-family: "Caveat Brush";
-
 }
 .main-content .info-images a:hover {
     color: #ffff33;
@@ -248,6 +254,7 @@ nav a:hover {
 /*main-section */
  /* Start-Learning */
 .Careers {
+	top: 0;
 	width: 100%;
     background-color: #fafad2;
     margin-bottom: 32px;
@@ -273,7 +280,7 @@ nav a:hover {
     border: solid 4px #d3d3d3;
     margin: 0px 17px 40px 17px;
     font-family: "Kreon", serif;
-    box-shadow: 5px 6px black;
+    box-shadow: 15px 15px 15px black;
     border-radius: 24px;
     height: auto;
     width: 26%;
@@ -359,14 +366,13 @@ nav a:hover {
 	height: auto;
 	display: flex;
 	background-color: #fafad2;
-	border: solid 1px #d3d3d3;
 }
 .Thesis-content .images img {
 	width: 35%;
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	box-shadow: 4px 5px black;
+	box-shadow: 5px 5px 5px black;
 	margin: 16px 19px 21px 16px;
 }
 .Thesis-content .images section {
@@ -483,6 +489,12 @@ header nav.mobile-nav-container a {
     padding-top: 4px; 
 	border-radius: 100%;
  }
+
+header nav.mobile-nav-container a:hover {
+	background-color: #ffff33;
+    box-shadow: 4px 5px 11px black;
+    transition: background-color 550ms ease-out, box-shadow 550ms ease-out;
+ }
 }
 /* header mobile 480px mq */
 @media only screen and (max-width: 480px) {
@@ -523,6 +535,7 @@ header nav.mobile-nav-container a:first-child img {
 .top-banner h1 {
 	font-size: 3.4rem;
 }
+
 .top-banner .button a {
 	font-size: 1.3rem;
  }
@@ -885,6 +898,7 @@ header nav.mobile-nav-container a:first-child img {
 .Careers .Boxes h4 {
 	font-size: 1rem;
 }
+
 .Boxes p.boxes-text {
     font-size: 0.9rem;
  }
@@ -1000,11 +1014,10 @@ header nav.mobile-nav-container a:first-child img {
 
 .Thesis-content .images section {
 	font-size: 1rem;
- }
 }
+
 .Thesis-content .images div:first-child section { 
 	margin-top: 3px;
- }
 }
 /* Thesis-content (tablet size) 1007px mq */
 @media only screen and (max-width: 1007px) {
@@ -1012,14 +1025,17 @@ header nav.mobile-nav-container a:first-child img {
 .Thesis-content .top-section h3 {
 	font-size: 1.6rem;
 }
+
 .Thesis-content .top-section p {
-	font-size: 0.2rem;
+	font-size: 0.9rem;
 }
+
 .Thesis-content .images h3 {
 	font-size: 1.6rem;
 }
+
 .Thesis-content .images section {
-	font-size: 0.2rem;
+	font-size: 0.9rem;
  }
 }
 /* thesis-content (tablet size) 1053 mq */
@@ -1046,16 +1062,16 @@ header nav.mobile-nav-container a:first-child img {
 	margin: 0px 0px 24px 0px;
 }
 
+.Thesis-content .top-section video {
+    width: 100%;
+}
+
 .Thesis-content .top-section h3, p {
 	display: none;
 }
 
 .Thesis-content .images {
 	display: none;
-}
-
-.Thesis-content .top-section video {
-    width: 100%;
  }
 }
   /* THESIS-CONTENT MOBILE MQ */
