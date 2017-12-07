@@ -428,6 +428,13 @@ footer .terms {
 	letter-spacing: 0.5px;
 	margin-right: 48px;
 }
+footer .icons {
+	margin-top: -3px;
+    margin-left: -100px;
+}
+footer .icons i {
+    padding: 0px 25px;
+}
 
 
 
@@ -1122,6 +1129,10 @@ footer div {
 
 footer div {
 	font-size: 0.7rem;
+}
+
+footer .icons {
+	display: none;
  }
 }
   /* FOOTER MOBILE MQ */
