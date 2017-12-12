@@ -205,7 +205,6 @@ nav a:hover {
 	border-radius: 20px;
 	margin-bottom: 22px;
 	margin-left: 16px;
-	box-shadow: 8px 8px 8px black;
 }
 .main-content .info-images h3 {
 	width: 100%;
@@ -374,7 +373,6 @@ nav a:hover {
 	height: 11.1rem;
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	box-shadow: 8px 8px 8px black;
 	margin: 16px 19px 21px 16px;
 }
 .Thesis-content .images section {
