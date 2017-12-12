@@ -75,7 +75,7 @@ nav a:hover {
 	margin: 32px 48px 32px 24px; 
 	border: solid 4px #d3d3d3;
 	border-radius: 20px;
-	box-shadow: 8px 8px 8px black;
+	box-shadow: 15px 15px 15px black;
 }
 .top-banner section  {
     margin-top: 70px;
@@ -140,7 +140,7 @@ nav a:hover {
     margin-bottom: 20px;
     border: solid 4px #d3d3d3;
     border-radius: 20px;
-    box-shadow: 8px 8px 8px black;
+    box-shadow: 15px 15px 15px black;
 }
 .main-content .top-section h2 {
 	margin-top: 0;
@@ -252,8 +252,8 @@ nav a:hover {
 }
 
 
-/*main-section */
- /* Start-Learning */
+  /* Careers /* main-section */
+/* Start-Learning */
 .Careers {
 	top: 0;
 	width: 100%;
@@ -356,7 +356,7 @@ nav a:hover {
 	height: auto;
 	width: 100%;
 	border: solid 4px #d3d3d3;
-	box-shadow: 8px 8px 8px black;
+	box-shadow: 15px 15px 15px black;
 }
 .Thesis-content .images {
 	display; flex;
