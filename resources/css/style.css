@@ -194,7 +194,6 @@ nav a:hover {
 }
 .main-content .info-images div:last-child {
     padding-top: 16px;
-    border: solid 1px #d3d3d3;
     background-color: #fafad2;
     box-shadow: -10px 10px 15px black;
 }
@@ -392,7 +391,6 @@ nav a:hover {
 	line-height: 1.2;
 }
 .Thesis-content .images div:first-child {
-    border: solid 1px #d3d3d3;
     box-shadow: -10px 10px 15px black;
 }
 .Thesis-content .images div:last-child section {
