@@ -473,6 +473,10 @@ header nav.mobile-nav-container {
 /* header (tablet size) 880px mq */
 @media only screen and (max-width: 880px) {
 
+.main-container {
+	max-width: 100%;
+}
+
 header nav.desktop {
 	display: none;
 }  
@@ -506,6 +510,10 @@ header nav.mobile-nav-container a:hover {
 }
 /* header mobile 480px mq */
 @media only screen and (max-width: 480px) {
+
+.main-container {
+	max-width: 100%;
+}
 
 header nav.mobile-nav-container a {
 	display: flex;
